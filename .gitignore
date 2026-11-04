@@ -1,0 +1,52 @@
+# ==========================================
+# Eksporty i archiwa binarne (dystrybucja)
+# ==========================================
+*.mrpack
+*.zip
+*.tar.gz
+
+# ==========================================
+# Packwiz & Pobierane binarki
+# ==========================================
+# Packwiz wersjonuje metadane w plikach .pw.toml.
+# Ignorujemy pliki wykonywalne i lokalny cache:
+packwiz.exe
+packwiz
+.packwiz/
+cache/
+
+# Jeśli w folderze mods/ pojawią się fizyczne pliki .jar (np. po testach),
+# ignorujemy same jary, śledząc wyłącznie pliki .pw.toml:
+mods/*.jar
+resourcepacks/*.zip
+
+# ==========================================
+# Środowisko uruchomieniowe Minecraft / Forge
+# ==========================================
+run/
+world/
+logs/
+crash-reports/
+libraries/
+kubejs/exported/
+spark/
+
+# Pliki konfiguracyjne generowane podczas startu serwera/klienta
+usercache.json
+usernamecache.json
+eula.txt
+server.properties
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+
+# ==========================================
+# Środowiska IDE i system operacyjny
+# ==========================================
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
