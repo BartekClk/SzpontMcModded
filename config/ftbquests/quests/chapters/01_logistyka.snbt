@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_logistyka"
+	group: ""
+	icon: "toms_storage:ts.crafting_terminal"
+	id: "0000000000000809"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"Zwykłe skrzynie szybko się zapchają. Szuflady przechowują dziesiątki stacków jednego przedmiotu.",
+				"",
+				"&e&lOBSŁUGA:&r",
+				"• &aKliknięcie PPM:&r wkłada przedmiot (2x PPM wkłada wszystkie pasujące z ekwipunku!).",
+				"• &aKliknięcie LPM:&r wyjmuje 1 sztukę (&6Shift + LPM&r wyjmuje cały stack)."
+			]
+			id: "00000000000007EA"
+			rewards: [
+				{
+					id: "00000000000007EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "00000000000007ED"
+					item: "storagedrawers:oak_full_drawers_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Storage Drawers"
+			tasks: [
+				{
+					count: 4L
+					id: "00000000000007EB"
+					item: "storagedrawers:oak_full_drawers_1"
+					type: "item"
+				}
+			]
+			title: "Ściana Szuflad"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007EA"]
+			description: [
+				"&bCompacting Drawers&r to jeden z najważniejszych bloków w grze.",
+				"",
+				"&e&lJAK TO DZIAŁA:&r",
+				"Wrzuć do niej np. &6Sztabki Żelaza&r. Szuflada automatycznie i bez żadnego prądu udostępni Ci w trzech okienkach jednocześnie: &aBloki Żelaza&r, &aSztabki Żelaza&r oraz &aBryłki Żelaza (Nuggets)&r!",
+				"Niezastąpione przy automatycznych pralniach żwiru z Create."
+			]
+			id: "00000000000007EE"
+			rewards: [
+				{
+					id: "00000000000007F0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "00000000000007F1"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Koniec z ręcznym robieniem bloków!"
+			tasks: [
+				{
+					count: 2L
+					id: "00000000000007EF"
+					item: "storagedrawers:compacting_drawers_3"
+					type: "item"
+				}
+			]
+			title: "&6Magiczna Szuflada Kompresująca"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000007EA"]
+			description: [
+				"&6Drawer Key&r pozwala zablokować szufladę na konkretny przedmiot – nawet gdy wyjmiesz z niej ostatnią sztukę, automaty nie wrzucą tam śmieci.",
+				"&6Void Upgrade&r niszczy nadmiar surowców po zapełnieniu szuflady (chroni fabryki przed zatkaniem i lagowaniem serwera!)."
+			]
+			id: "00000000000007F2"
+			rewards: [
+				{
+					id: "00000000000007F6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "00000000000007F7"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Blokowanie slotów"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000007F3"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000007F4"
+					item: "storagedrawers:void_upgrade"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000007F5"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+			]
+			title: "Klucz i Ulepszenia Pojemności"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000007EA"]
+			description: [
+				"Postaw &6Drawer Controller&r tak, aby stykał się ze ścianą Twoich szuflad.",
+				"Wszystkie szuflady połączone ze sobą (do 12 bloków odległości) będą teraz widoczne przez ten jeden blok!"
+			]
+			id: "00000000000007F8"
+			rewards: [
+				{
+					id: "00000000000007FA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 16
+					id: "00000000000007FB"
+					item: "storagedrawers:oak_trim"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Drawer Controller"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000007F9"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+			]
+			title: "Serce Szuflad: Kontroler"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007F8"]
+			description: [
+				"Wielu graczy myli dwa podstawowe bloki w tym modzie:",
+				"",
+				"1. &6Inventory Connector&r – stawia się go &aBEZPOŚREDNIO&r obok skrzynek lub obok &eDrawer Controllera&r. On skanuje przylegające magazyny.",
+				"2. &6Crafting Terminal&r – to ekran z wyszukiwarką i stołem rzemieślniczym. Musisz postawić go bezpośrednio na &6Inventory Connectorze&r!",
+				"",
+				"&7Jeśli chcesz wyciągnąć ekran do innego pokoju, użyj Inventory Cable + Inventory Cable Connector."
+			]
+			id: "00000000000007FC"
+			rewards: [
+				{
+					id: "00000000000007FE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Przeczytaj przed budową terminala!"
+			tasks: [
+				{
+					id: "00000000000007FD"
+					title: "Rozumiem różnicę!"
+					type: "checkmark"
+				}
+			]
+			title: "&eJak działa Tom's Simple Storage?"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007FC"]
+			description: [
+				"Zbierz komplet części, przyklej &6Inventory Connector&r do swojego &eDrawer Controllera&r, a na nim postaw &6Crafting Terminal&r.",
+				"Od teraz masz jeden wspólny magazyn z wyszukiwarką w stylu AE2, połączony z JEI!"
+			]
+			id: "00000000000007FF"
+			rewards: [
+				{
+					id: "0000000000000802"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "0000000000000803"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000000804"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Zestaw startowy Tom's Storage"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000800"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000801"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "Centralny Terminal z Wyszukiwarką"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007FF"]
+			description: [
+				"Zrób bezprzewodowy terminal i kliknij nim &6Shift + PPM&r na swój stacjonarny Crafting Terminal, aby je sparować.",
+				"Możesz teraz zaglądać do swojego magazynu z dowolnego miejsca na terenie bazy!"
+			]
+			id: "0000000000000805"
+			rewards: [
+				{
+					id: "0000000000000807"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 4
+					id: "0000000000000808"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Wireless Terminal"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000806"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+			]
+			title: "Kieszonkowe Wi-Fi do Magazynu"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "1. Logistyka i Magazyn"
+}

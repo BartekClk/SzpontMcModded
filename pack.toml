@@ -1,0 +1,13 @@
+name = "Szpont Mc Modded"
+author = "Bartek Celak"
+version = "0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "54c1a9f6adef01ad3d2344dd2e8b469a2f1f4ddefb80fa3a7b05b0bae769cc1e"
+
+[versions]
+forge = "47.4.28"
+minecraft = "1.20.1"

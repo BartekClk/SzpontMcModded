@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05_ropa_i_prad"
+	group: ""
+	icon: "createdieselgenerators:diesel_engine"
+	id: "00000000000008C1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"Kiwon naftowy (&6Pumpjack&r) to konstrukcja wieloblokowa, która wymaga dokładnego ułożenia:",
+				"",
+				"1. &aSzukanie złoża:&r Chodź po świecie i klikaj PPM trzymając &6Oil Scanner&r. Szukaj chunka, w którym skaner pokaże złoże ropy!",
+				"2. &bOdwiert:&r Na tym chunku wykop dziurę do samego &lBedrocka&r i poprowadź od samego dna pionowo w górę rury (&6Fluid Pipe&r). Na górze postaw &6Pumpjack Hole&r.",
+				"3. &6Ramie Kiwona:&r Nad dziurą zbuduj słup i zamontuj poziomo belkę na &6Pumpjack Bearing&r (łożysku). Na końcu belki od strony dziury daj &6Pumpjack Head&r, a z tyłu daj &6Pumpjack Crank&r (korbę).",
+				"4. &cSklejenie:&r Sklej samą górną ruchomą belkę (od łożyska przez głowicę do miejsca nad korbą) za pomocą &aSuper Glue&r, kliknij na łożysko pustą ręką i podłącz napęd do korby!"
+			]
+			id: "000000000000089B"
+			rewards: [
+				{
+					id: "000000000000089D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Instrukcja: Diesel Generators"
+			tasks: [
+				{
+					id: "000000000000089C"
+					title: "Zrozumiałem budowę Kiwona!"
+					type: "checkmark"
+				}
+			]
+			title: "&eJak znaleźć Ropę i postawić Kiwon?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000089B"]
+			description: [
+				"Zbierz od razu wszystkie elementy wymagane do złożenia jednego działającego kiwona naftowego. Użyj podpowiedzi &6[W] Ponder&r na głowicy, aby zobaczyć układ 3D!"
+			]
+			id: "000000000000089E"
+			rewards: [
+				{
+					id: "00000000000008A4"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 64
+					id: "00000000000008A5"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Wszystkie części Pumpjacka"
+			tasks: [
+				{
+					count: 1L
+					id: "000000000000089F"
+					item: "createdieselgenerators:oil_scanner"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008A0"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008A1"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000008A2"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008A3"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+			]
+			title: "Kompletny Zestaw Wiertniczy"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000089E"]
+			description: [
+				"&e&lJAK ZBUDOWAĆ RAFINERIĘ:&r",
+				"1. Postaw pionową wieżę ze zwykłych zbiorników &6Fluid Tank&r (np. wysokość 4 bloki).",
+				"2. Pod jej dnem postaw &6Blaze Burner&r i rozpal ogień.",
+				"3. Weź do ręki &6Distillation Controller&r i kliknij nim &aPPM na zbiornik&r – zwykły zbiornik zamieni się w kolumnę rektyfikacyjną z okienkami!",
+				"4. Wpompuj na sam dół surową Ropę (&8Crude Oil&r) – na wyższych piętrach wieży oddzieli się &6Diesel&r oraz &eGasoline (Benzyna)&r!"
+			]
+			id: "00000000000008A6"
+			rewards: [
+				{
+					id: "00000000000008A9"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 8
+					id: "00000000000008AA"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Crude Oil -> Diesel & Benzyna"
+			tasks: [
+				{
+					count: 6L
+					id: "00000000000008A7"
+					item: "createdieselgenerators:distillation_controller"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "00000000000008A8"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Wieża Destylacyjna (Rafineria)"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008A6"]
+			description: [
+				"Doprowadź rurą paliwo do &6Diesel Engine&r lub połącz w rząd kilka &6Modular Diesel Engine&r, aby uzyskać ogromną ilość SU na bardzo małej przestrzeni!"
+			]
+			id: "00000000000008AB"
+			rewards: [
+				{
+					id: "00000000000008AF"
+					type: "xp"
+					xp: 450
+				}
+				{
+					count: 2
+					id: "00000000000008B0"
+					item: "createdieselgenerators:canister"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Potężny moment obrotowy"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000008AC"
+					item: "createdieselgenerators:diesel_engine"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000008AD"
+					item: "createdieselgenerators:modular_diesel_engine"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008AE"
+					item: "createdieselgenerators:engine_silencer"
+					type: "item"
+				}
+			]
+			title: "Silniki Spalinowe i Modułowe"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: []
+			description: [
+				"Przepuść blachy miedzi, żelaza i złota przez walcarkę (&6Rolling Mill&r), aby uzyskać druty, a następnie nawiń je na szpule (&6Spool&r)."
+			]
+			id: "00000000000008B1"
+			rewards: [
+				{
+					id: "00000000000008B5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 16
+					id: "00000000000008B6"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Create Crafts & Additions"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000008B2"
+					item: "createaddition:rolling_mill"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00000000000008B3"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00000000000008B4"
+					item: "createaddition:connector"
+					type: "item"
+				}
+			]
+			title: "Walcownia Drutu i Kabli"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000008B1"]
+			description: [
+				"Zamiast ciągnąć długie wały przez całą bazę:",
+				"1. Podłącz &6Alternator&r do szybkiego źródła ruchu (np. silnika parowego lub spalinowego) – zamieni on SU na prąd elektryczny (FE).",
+				"2. Postaw na maszynach złączki (&6Connector&r) i połącz je przewodem (&6Copper Spool&r).",
+				"3. Na drugim końcu bazy postaw &6Electric Motor&r – zamieni on prąd z powrotem na ruch obrotowy o dowolnej prędkości (regulowanej na boku silnika)!"
+			]
+			id: "00000000000008B7"
+			rewards: [
+				{
+					id: "00000000000008BA"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 8
+					id: "00000000000008BB"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Konwersja SU <-> FE (Prąd)"
+			tasks: [
+				{
+					count: 2L
+					id: "00000000000008B8"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000008B9"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			title: "Prądnica i Silnik Elektryczny"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000008B7"]
+			description: [
+				"&6Modular Accumulator&r działa jak gigantyczna bateria wieloblokowa magazynująca miliony jednostek prądu FE.",
+				"&6Tesla Coil&r postawiona nad Depotem pozwala ładować przedmioty prądem lub razić moby piorunami po podaniu sygnału Redstone!"
+			]
+			id: "00000000000008BC"
+			rewards: [
+				{
+					id: "00000000000008BF"
+					type: "xp"
+					xp: 450
+				}
+				{
+					count: 8
+					id: "00000000000008C0"
+					item: "createaddition:capacitor"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Modular Accumulator & Tesla Coil"
+			tasks: [
+				{
+					count: 4L
+					id: "00000000000008BD"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008BE"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+			]
+			title: "Bank Energii i Cewka Tesli"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "5. Ropa i Elektryfikacja"
+}

@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00_podrecznik"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "00000000000007E9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"&eTen przewodnik przeprowadzi Cię od pierwszego kilofa aż po rafinerie naftowe, sieć kolejową i ciężką artylerię.",
+				"",
+				"&c&lWAŻNE ZASADY MECHANIK:&r",
+				"1. Zadania z ikoną &a[Ptaszka]&r to krótkie instrukcje. Kliknij na nie, aby odebrać darmowy EXP i odblokować dalszą gałąź.",
+				"2. Zadania wieloblokowe wymagają od razu kompletu części, abyś nie został z połową niedziałającej maszyny."
+			]
+			id: "00000000000007D1"
+			rewards: [
+				{
+					id: "00000000000007D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "00000000000007D4"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Przeczytaj zanim zaczniesz"
+			tasks: [
+				{
+					id: "00000000000007D2"
+					title: "Zaczynamy!"
+					type: "checkmark"
+				}
+			]
+			title: "&6Witaj na serwerze!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Mod &6Create&r nie ma skomplikowanych okienek GUI. Wszystko dzieje się fizycznie w świecie gry.",
+				"",
+				"&a&lJAK ZROZUMIEĆ DOWOLNĄ MASZYNĘ?&r",
+				"Najedź kursorem na dowolny blok z Create w ekwipunku lub w wyszukiwarce &eJEI&r po prawej stronie i &6&lPRZYTRZYMAJ KLAWISZ [W]&r.",
+				"",
+				"Otworzy się interaktywna animacja 3D, którą możesz obracać i pauzować. Pokazuje ona dokładnie, z której strony podpiąć napęd!"
+			]
+			id: "00000000000007D5"
+			rewards: [
+				{
+					id: "00000000000007D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "System animacji Ponder"
+			tasks: [
+				{
+					id: "00000000000007D6"
+					title: "Wiem jak używać [W]"
+					type: "checkmark"
+				}
+			]
+			title: "&bNajważniejszy klawisz: [W]"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Na serwerze działa system rozwoju postaci &6Just Leveling&r.",
+				"",
+				"&e&lJAK TO DZIAŁA:&r",
+				"1. Naciśnij klawisz &6[K]&r (lub sprawdź przypisanie w ustawieniach sterowania).",
+				"2. Za zdobywane poziomy doświadczenia (XP) podnosisz swoje statystyki: &aMining&r, &aAttack&r, &aDefense&r, &aBuilding&r.",
+				"3. Lepsze narzędzia (żelazne, diamentowe) oraz zbroje wymagają odpowiedniego poziomu danej cechy!",
+				"",
+				"&7Wskazówka: Wykonywanie tych zadań daje mnóstwo XP na start!"
+			]
+			id: "00000000000007D8"
+			rewards: [
+				{
+					id: "00000000000007DA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Mod: Just Leveling [Klawisz K]"
+			tasks: [
+				{
+					id: "00000000000007D9"
+					title: "Otworzyłem menu [K]"
+					type: "checkmark"
+				}
+			]
+			title: "&cCzemu nie mogę użyć kilofa?!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Na serwerze są armaty i pociągi – zabezpiecz swój teren!",
+				"",
+				"&e&lINSTRUKCJA KROK PO KROKU:&r",
+				"1. Otwórz ekwipunek &6[E]&r i kliknij ikonę &bTrzech Ludzików&r w lewym górnym rogu, aby stworzyć drużynę (&aFTB Teams&r) ze znajomymi.",
+				"2. Kliknij ikonę &aMapy&r obok (lub naciśnij &6[M]&r i wybierz ikonę siatki chunków w lewym górnym rogu).",
+				"3. &6Lewy Przycisk Myszy (LPM)&r zajmuje teren (chroni przed creeperami i graczami).",
+				"4. &bShift + LPM&r włącza &lChunkloading&r – maszyny i pociągi na tym kwadracie będą pracować nawet, gdy wyjdziesz z bazy!"
+			]
+			id: "00000000000007DB"
+			rewards: [
+				{
+					id: "00000000000007DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "FTB Chunks & FTB Teams"
+			tasks: [
+				{
+					id: "00000000000007DC"
+					title: "Zająłem swój teren"
+					type: "checkmark"
+				}
+			]
+			title: "&aOchrona Bazy i Chunkloading"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Naciśnij klawisz &6[V]&r, aby otworzyć menu czatu głosowego.",
+				"Możesz tam skonfigurować mikrofon, głośność poszczególnych graczy oraz tworzyć grupy radiowe dla konduktorów pociągów."
+			]
+			id: "00000000000007DE"
+			rewards: [
+				{
+					id: "00000000000007E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Simple Voice Chat [Klawisz V]"
+			tasks: [
+				{
+					id: "00000000000007DF"
+					title: "Skonfigurowano mikrofon"
+					type: "checkmark"
+				}
+			]
+			title: "&dCzat Głosowy i Radio"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Stwórz swój pierwszy &6Traveler's Backpack&r.",
+				"",
+				"&a&lPRO-TIP:&r Nie musisz stawiać plecaka na ziemi ani blokować nim slotu na napierśnik!",
+				"Kliknij okrągłą ikonkę w lewym górnym rogu swojej postaci w ekwipunku (&eCurios API&r) i włóż plecak w dedykowany slot &6Back&r. Otworzysz go skrótem &6[B]&r."
+			]
+			id: "00000000000007E1"
+			rewards: [
+				{
+					id: "00000000000007E3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "00000000000007E4"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Slot Curios API"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000007E2"
+					item: "travelersbackpack:standard"
+					type: "item"
+				}
+			]
+			title: "Plecak Inżyniera"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Świat generowany przez &6Tectonic&r kryje struktury z &6Create: Structures&r oraz podziemne obozowiska Mimików.",
+				"Zdobyte tam przedmioty z moda &dArtifacts&r zakłada się w dodatkowe sloty biżuterii (Curios)."
+			]
+			id: "00000000000007E5"
+			rewards: [
+				{
+					id: "00000000000007E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "00000000000007E8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Struktury i Artifacts"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000007E6"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			title: "Poszukiwacz Reliktów"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "0. Podręcznik i Zasady"
+}
