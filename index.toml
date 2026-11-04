@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "2f9fb6ee1d697a8877607ebcf0965dce7002dc7de99aaa71d5c3c2d24c69e321"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
 hash = "7b3c3c98bdce160ca7dfdfe51465968c00f5239133363ae60e3a6d67b846129c"
 
