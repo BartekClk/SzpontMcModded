@@ -42,11 +42,6 @@ hash = "db568fdd5a09a74465ad321522723e143ead4cb6f1c03cd6ce3a5f8acba447e4"
 metafile = true
 
 [[files]]
-file = "mods/ae2.pw.toml"
-hash = "327ae6465d0d39a9286dbc4cd267ccdf9c761290dca4f19d16b1e48b32dfa175"
-metafile = true
-
-[[files]]
 file = "mods/amendments.pw.toml"
 hash = "5922845f6c9bb57548eca500857ebd2268bffe3799373b7306c2bdfb706d5f95"
 metafile = true
@@ -59,6 +54,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "837835bafefef1a9b4215bd05adb23a9f4d2d83602b432aa68f124023079c2b7"
 metafile = true
 
 [[files]]
@@ -82,13 +82,18 @@ hash = "0484b975d66fd7f59e0533191ff46fbb1a44df12263591ce3dadbb3b87f3d527"
 metafile = true
 
 [[files]]
+file = "mods/betterf3.pw.toml"
+hash = "6caf438f3347cbe468431b631c426caf0ce5d04a2d06a2cc588576b8c49a1225"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "14481081a9e233f4ba57df8a77ce028184818143eae1c73b60749ea482c912e9"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
+hash = "b23d8e68147bc926e557dd666df3e78ec99e4b4ef63920163aabc6f0cbaec3c0"
 metafile = true
 
 [[files]]
@@ -202,8 +207,18 @@ hash = "6cde78abac12b491d29a16033b90b70e8304f4f5f9726d2c80ad776256054a6c"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "e5206ecaa7deacbdb38d292be484bd584bac736d1bed2fb20289020a65a7f132"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "e17e6114a5d7ba9b8821239e4e7fa5788dd0794a336a83576883c85f5a474463"
+metafile = true
+
+[[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "6ad309b0b938305fab3ac8551d7f75396e25fdbc6734ae278ecc9b2bcd8d739f"
 metafile = true
 
 [[files]]
@@ -257,8 +272,23 @@ hash = "7ffae05c3b8101588b231db8116c34b36a77a0c6e6d7e6af867ae1c5b47e4d10"
 metafile = true
 
 [[files]]
+file = "mods/glodium.pw.toml"
+hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
-hash = "7cbc557e23729a2ab1a0dfa8832359edb640a9c4b2f1919e7c43cd5c7ccfdf3c"
+hash = "606e38058a2913795ecebcd9b407a453d8fc24cfd3409a9eb431ff56e10bcfe8"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
 metafile = true
 
 [[files]]
@@ -304,6 +334,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "0261f8fb3b0880b572044ff084edceecd2c91f39ee71c477198313ac2a253f4d"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "f0f5c308df4bb27f60b675220463446876dfdd7b85a096143259d1173ab69341"
 metafile = true
 
 [[files]]
