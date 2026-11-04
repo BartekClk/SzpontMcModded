@@ -4,14 +4,14 @@
 	filename: "00_podrecznik"
 	group: ""
 	icon: "minecraft:writable_book"
-	id: "00000000000007E9"
+	id: "00000000000007F7"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: []
 			description: [
-				"&eTen przewodnik przeprowadzi Cię od pierwszego kilofa aż po rafinerie naftowe, sieć kolejową i ciężką artylerię.",
+				"&eTen przewodnik przeprowadzi Cię krok po kroku od pierwszego kilofa aż po rafinerie naftowe, sieć kolejową, komputery kwantowe AE2 i wymiar Otherside.",
 				"",
 				"&c&lWAŻNE ZASADY MECHANIK:&r",
 				"1. Zadania z ikoną &a[Ptaszka]&r to krótkie instrukcje. Kliknij na nie, aby odebrać darmowy EXP i odblokować dalszą gałąź.",
@@ -41,19 +41,20 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6Witaj na serwerze!"
+			title: "&6Witaj na SZPONT MC!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00000000000007D1"]
 			description: [
-				"Mod &6Create&r nie ma skomplikowanych okienek GUI. Wszystko dzieje się fizycznie w świecie gry.",
+				"W tej paczce nie musisz szukać poradników w przeglądarce – wszystko jest wbudowane w grę!",
 				"",
-				"&a&lJAK ZROZUMIEĆ DOWOLNĄ MASZYNĘ?&r",
-				"Najedź kursorem na dowolny blok z Create w ekwipunku lub w wyszukiwarce &eJEI&r po prawej stronie i &6&lPRZYTRZYMAJ KLAWISZ [W]&r.",
+				"&6&l1. PRZYTRZYMAJ [W] (Create Ponder):&r",
+				"Najedź kursorem na dowolną maszynę z Create w ekwipunku lub w JEI i przytrzymaj &6[W]&r. Otworzy się interaktywny film 3D pokazujący dokładnie, jak podłączyć napęd!",
 				"",
-				"Otworzy się interaktywna animacja 3D, którą możesz obracać i pauzować. Pokazuje ona dokładnie, z której strony podpiąć napęd!"
+				"&b&l2. PRZYTRZYMAJ [G] (AE2 GuideME):&r",
+				"Najedź kursorem na dowolny kabel lub urządzenie z Applied Energistics 2 i przytrzymaj &b[G]&r. Otworzy się ilustrowana encyklopedia z przykładami sieci!"
 			]
 			id: "00000000000007D5"
 			rewards: [
@@ -65,15 +66,15 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "System animacji Ponder"
+			subtitle: "Systemy Ponder (Create) i GuideME (AE2)"
 			tasks: [
 				{
 					id: "00000000000007D6"
-					title: "Wiem jak używać [W]"
+					title: "Znam klawisze [W] oraz [G]"
 					type: "checkmark"
 				}
 			]
-			title: "&bNajważniejszy klawisz: [W]"
+			title: "&bNajważniejsze klawisze: [W] oraz [G]"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -85,9 +86,9 @@
 				"&e&lJAK TO DZIAŁA:&r",
 				"1. Naciśnij klawisz &6[K]&r (lub sprawdź przypisanie w ustawieniach sterowania).",
 				"2. Za zdobywane poziomy doświadczenia (XP) podnosisz swoje statystyki: &aMining&r, &aAttack&r, &aDefense&r, &aBuilding&r.",
-				"3. Lepsze narzędzia (żelazne, diamentowe) oraz zbroje wymagają odpowiedniego poziomu danej cechy!",
+				"3. Lepsze narzędzia (żelazne, diamentowe, netherytowe) oraz zbroje wymagają odpowiedniego poziomu danej cechy!",
 				"",
-				"&7Wskazówka: Wykonywanie tych zadań daje mnóstwo XP na start!"
+				"&7Wskazówka: Wykonywanie zadań z tej książki daje mnóstwo XP na szybki start!"
 			]
 			id: "00000000000007D8"
 			rewards: [
@@ -120,7 +121,7 @@
 				"1. Otwórz ekwipunek &6[E]&r i kliknij ikonę &bTrzech Ludzików&r w lewym górnym rogu, aby stworzyć drużynę (&aFTB Teams&r) ze znajomymi.",
 				"2. Kliknij ikonę &aMapy&r obok (lub naciśnij &6[M]&r i wybierz ikonę siatki chunków w lewym górnym rogu).",
 				"3. &6Lewy Przycisk Myszy (LPM)&r zajmuje teren (chroni przed creeperami i graczami).",
-				"4. &bShift + LPM&r włącza &lChunkloading&r – maszyny i pociągi na tym kwadracie będą pracować nawet, gdy wyjdziesz z bazy!"
+				"4. &bShift + LPM&r włącza &lChunkloading&r – maszyny, osadnicy i pociągi na tym kwadracie będą pracować nawet, gdy wyjdziesz z serwera!"
 			]
 			id: "00000000000007DB"
 			rewards: [
@@ -132,7 +133,7 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "FTB Chunks & FTB Teams"
+			subtitle: "FTB Chunks \& FTB Teams"
 			tasks: [
 				{
 					id: "00000000000007DC"
@@ -148,7 +149,8 @@
 			dependencies: ["00000000000007D1"]
 			description: [
 				"Naciśnij klawisz &6[V]&r, aby otworzyć menu czatu głosowego.",
-				"Możesz tam skonfigurować mikrofon, głośność poszczególnych graczy oraz tworzyć grupy radiowe dla konduktorów pociągów."
+				"Możesz tam skonfigurować mikrofon, głośność graczy oraz tworzyć grupy radiowe dla maszynistów.",
+				"&7Dzięki modowi Sound Physics dźwięk niesie echo w jaskiniach i tłumi się przez ściany!"
 			]
 			id: "00000000000007DE"
 			rewards: [
@@ -168,40 +170,113 @@
 					type: "checkmark"
 				}
 			]
-			title: "&dCzat Głosowy i Radio"
+			title: "&dCzat Głosowy i Fizyka Dźwięku"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00000000000007D1"]
 			description: [
-				"Stwórz swój pierwszy &6Traveler's Backpack&r.",
-				"",
-				"&a&lPRO-TIP:&r Nie musisz stawiać plecaka na ziemi ani blokować nim slotu na napierśnik!",
-				"Kliknij okrągłą ikonkę w lewym górnym rogu swojej postaci w ekwipunku (&eCurios API&r) i włóż plecak w dedykowany slot &6Back&r. Otworzysz go skrótem &6[B]&r."
+				"• &6Distant Horizons:&r W ustawieniach graficznych znajdziesz niebieską ikonę obok suwaka FOV. Pozwala ona renderować uproszczone góry &eTectonic&r na 128+ chunków bez spadku FPS!",
+				"• &6BetterF3:&r Ekran pod klawiszem &e[F3]&r został uporządkowany. Naciśnij &a[F3 + M]&r, aby włączać lub wyłączać niepotrzebne sekcje."
 			]
 			id: "00000000000007E1"
 			rewards: [
 				{
 					id: "00000000000007E3"
 					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Distant Horizons \& BetterF3"
+			tasks: [
+				{
+					id: "00000000000007E2"
+					title: "Sprawdziłem ustawienia grafiki"
+					type: "checkmark"
+				}
+			]
+			title: "&bDaleki Horyzont i Nowe F3"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Nie martw się – Twoje przedmioty nie znikną po 5 minutach i nie spalą się w lawie!",
+				"",
+				"&e&lJAK ODZYSKAĆ EKWIPUNEK:&r",
+				"1. Po śmierci w miejscu zgonu staje &6Kamienny Nagrobek&r.",
+				"2. Otrzymujesz do ręki kartkę (&eObituary&r) z dokładnymi współrzędnymi X, Y, Z swojej śmierci.",
+				"3. Gdy dotrzesz na miejsce, po prostu &aKucnij [Shift] stojąc na grobie&r (lub rozbij go kilofem), a wszystkie przedmioty wrócą bezpośrednio na swoje miejsca w ekwipunku!"
+			]
+			id: "00000000000007E4"
+			rewards: [
+				{
+					id: "00000000000007E6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 1
+					id: "00000000000007E7"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "GraveStone Mod – Nagrobki"
+			tasks: [
+				{
+					id: "00000000000007E5"
+					title: "Wiem jak działają groby"
+					type: "checkmark"
+				}
+			]
+			title: "&7Co się dzieje po śmierci?"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Stwórz swój pierwszy &6Sophisticated Backpack&r.",
+				"",
+				"&a&lPRO-TIP:&r Nie musisz trzymać plecaka w pasku podręcznym!",
+				"1. Kliknij okrągłą ikonkę w lewym górnym rogu swojej postaci w ekwipunku (&eCurios API&r) i włóż plecak w slot &6Back&r. Otworzysz go w każdej chwili klawiszem &6[B]&r.",
+				"2. Plecak możesz ulepszać w stole rzemieślniczym (Miedziany -> Żelazny -> Złoty -> Diamentowy -> Netherytowy), zyskując dziesiątki nowych slotów!"
+			]
+			id: "00000000000007E8"
+			rewards: [
+				{
+					id: "00000000000007EA"
+					type: "xp"
 					xp: 150
 				}
 				{
 					count: 8
-					id: "00000000000007E4"
+					id: "00000000000007EB"
 					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00000000000007EC"
+					item: "sophisticatedbackpacks:upgrade_base"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Slot Curios API"
+			subtitle: "Sophisticated Backpacks"
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000007E2"
-					item: "travelersbackpack:standard"
+					id: "00000000000007E9"
+					item: "sophisticatedbackpacks:backpack"
 					type: "item"
 				}
 			]
@@ -210,37 +285,86 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["00000000000007D1"]
+			dependencies: ["00000000000007E8"]
 			description: [
-				"Świat generowany przez &6Tectonic&r kryje struktury z &6Create: Structures&r oraz podziemne obozowiska Mimików.",
-				"Zdobyte tam przedmioty z moda &dArtifacts&r zakłada się w dodatkowe sloty biżuterii (Curios)."
+				"Po prawej stronie okna plecaka znajdują się sloty na ulepszenia:",
+				"• &aMagnet Upgrade:&r automatycznie przyciąga wykopane surowce prosto do plecaka.",
+				"• &eFeeding Upgrade:&r automatycznie karmi Twoją postać jedzeniem schowanym w plecaku, gdy zgłodniejesz!",
+				"• &bCompacting Upgrade:&r sam zbija bryłki i sztabki w bloki wewnątrz plecaka."
 			]
-			id: "00000000000007E5"
+			id: "00000000000007ED"
 			rewards: [
 				{
-					id: "00000000000007E7"
+					id: "00000000000007F1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 1
+					id: "00000000000007F2"
+					item: "sophisticatedbackpacks:compacting_upgrade"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Magnes, Karmienie i Kompresja"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000007EE"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000007EF"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000007F0"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+			]
+			title: "Inteligentne Moduły Plecaka"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000007D1"]
+			description: [
+				"Świat generowany przez &6Tectonic&r kryje przebudowane wioski (&aBetter Villages&r), latające osady w chmurach (&bSky Villages&r), fabryki (&eCreate: Structures&r) oraz podziemne obozowiska Mimików.",
+				"Zdobyte z Mimików relikty z moda &dArtifacts&r zakłada się w dodatkowe sloty biżuterii (Curios)."
+			]
+			id: "00000000000007F3"
+			rewards: [
+				{
+					id: "00000000000007F5"
 					type: "xp"
 					xp: 100
 				}
 				{
 					count: 2
-					id: "00000000000007E8"
+					id: "00000000000007F6"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Struktury i Artifacts"
+			subtitle: "Tectonic, Sky Villages \& Artifacts"
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000007E6"
+					id: "00000000000007F4"
 					item: "minecraft:compass"
 					type: "item"
 				}
 			]
-			title: "Poszukiwacz Reliktów"
+			title: "Poszukiwacz Reliktów i Podniebnych Wiosek"
 			x: -2.0d
 			y: 0.0d
 		}

@@ -4,7 +4,7 @@
 	filename: "04_mosiadz_i_kolej"
 	group: ""
 	icon: "create:track_station"
-	id: "000000000000089A"
+	id: "00000000000008BD"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -14,16 +14,16 @@
 				"Postaw &6Blaze Burner&r pod &6Basinem&r z Mikserem, nakarm Płomyka paliwem i wrzuć do środka Sztabki Miedzi oraz Sztabki Cynku.",
 				"Mosiądz odblokowuje inteligentne filtrowanie przedmiotów!"
 			]
-			id: "0000000000000867"
+			id: "000000000000088A"
 			rewards: [
 				{
-					id: "000000000000086A"
+					id: "000000000000088D"
 					type: "xp"
 					xp: 250
 				}
 				{
 					count: 16
-					id: "000000000000086B"
+					id: "000000000000088E"
 					item: "create:brass_ingot"
 					type: "item"
 				}
@@ -34,13 +34,13 @@
 			tasks: [
 				{
 					count: 32L
-					id: "0000000000000868"
+					id: "000000000000088B"
 					item: "create:brass_ingot"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "0000000000000869"
+					id: "000000000000088C"
 					item: "create:brass_casing"
 					type: "item"
 				}
@@ -50,22 +50,22 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000867"]
+			dependencies: ["000000000000088A"]
 			description: [
 				"Maszyny mosiężne mają na ściance specjalną ramkę na filtr:",
 				"• Przeciągnij na ramkę kółkiem myszy, aby wybrać dokładną ilość wypuszczanych sztuk (np. dokładnie po 64 na raz).",
 				"• Włóż w ramkę przedmiot &6List Filter&r lub &6Attribute Filter&r, aby przepuszczać kilkanaście różnych przedmiotów jednym wyjściem!"
 			]
-			id: "000000000000086C"
+			id: "000000000000088F"
 			rewards: [
 				{
-					id: "0000000000000871"
+					id: "0000000000000894"
 					type: "xp"
 					xp: 250
 				}
 				{
 					count: 16
-					id: "0000000000000872"
+					id: "0000000000000895"
 					item: "create:brass_sheet"
 					type: "item"
 				}
@@ -76,25 +76,25 @@
 			tasks: [
 				{
 					count: 8L
-					id: "000000000000086D"
+					id: "0000000000000890"
 					item: "create:brass_funnel"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "000000000000086E"
+					id: "0000000000000891"
 					item: "create:brass_tunnel"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "000000000000086F"
+					id: "0000000000000892"
 					item: "create:smart_chute"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "0000000000000870"
+					id: "0000000000000893"
 					item: "create:filter"
 					type: "item"
 				}
@@ -104,23 +104,23 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0000000000000867"]
+			dependencies: ["000000000000088A"]
 			description: [
 				"Zbuduj ścianę z 21 bloków &6Mechanical Crafter&r.",
 				"",
 				"&c&lBARDZO WAŻNE PRZY MONTAŻU:&r",
 				"Na przodzie każdego Craftera jest mała &eżółta strzałka&r. Użyj klucza (&6Wrench&r), aby skierować strzałki tak, żeby wszystkie zbiegały się po kolei do &aJEDNEGO ostatniego bloku wyjściowego&r! Jeśli strzałki wskazują na siebie nawzajem, maszyna się zatnie."
 			]
-			id: "0000000000000873"
+			id: "0000000000000896"
 			rewards: [
 				{
-					id: "0000000000000875"
+					id: "0000000000000898"
 					type: "xp"
 					xp: 350
 				}
 				{
 					count: 16
-					id: "0000000000000876"
+					id: "0000000000000899"
 					item: "create:cogwheel"
 					type: "item"
 				}
@@ -131,7 +131,7 @@
 			tasks: [
 				{
 					count: 21L
-					id: "0000000000000874"
+					id: "0000000000000897"
 					item: "create:mechanical_crafter"
 					type: "item"
 				}
@@ -141,50 +141,50 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0000000000000873"]
+			dependencies: ["0000000000000896"]
 			description: [
 				"Wyprodukuj na matrycy Crafterów parę potężnych &6Crushing Wheels&r oraz stwórz linię montażową (Deployery) do &6Precision Mechanism&r.",
-				"&7Pamiętaj: Dwa koła kruszące muszą obracać się DO ŚRODKA (przeciwnie do siebie), aby wciągać rudy!"
+				"&7Pamiętaj: Dwa koła kruszące muszą obracać się DO ŚRODKA (przeciwnie do siebie), aby wciągać rudy! Będą też niezbędne do mielenia Certus Quartzu oraz Sky Stone w AE2!"
 			]
-			id: "0000000000000877"
+			id: "000000000000089A"
 			rewards: [
 				{
-					id: "000000000000087B"
+					id: "000000000000089E"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 64
-					id: "000000000000087C"
+					id: "000000000000089F"
 					item: "minecraft:raw_iron"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "000000000000087D"
+					id: "00000000000008A0"
 					item: "create:raw_zinc"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Crushing Wheels & Precision Mechanism"
+			subtitle: "Crushing Wheels \& Precision Mechanism"
 			tasks: [
 				{
 					count: 2L
-					id: "0000000000000878"
+					id: "000000000000089B"
 					item: "create:crushing_wheel"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "0000000000000879"
+					id: "000000000000089C"
 					item: "create:precision_mechanism"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "000000000000087A"
+					id: "000000000000089D"
 					item: "create:rotation_speed_controller"
 					type: "item"
 				}
@@ -194,7 +194,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0000000000000867"]
+			dependencies: ["000000000000088A"]
 			description: [
 				"&6Steam Engine&r daje od 16 384 aż do 262 144 SU, ale kocioł wymaga równowagi 3 parametrów (widocznych w goglach po najechaniu na zbiornik):",
 				"",
@@ -204,10 +204,10 @@
 				"",
 				"&aNa koniec przyklej Steam Engine na bok zbiornika i postaw na czubku jego ramienia pojedynczy Shaft (wał)!"
 			]
-			id: "000000000000087E"
+			id: "00000000000008A1"
 			rewards: [
 				{
-					id: "0000000000000880"
+					id: "00000000000008A3"
 					type: "xp"
 					xp: 150
 				}
@@ -217,7 +217,7 @@
 			subtitle: "Zasada 3 Zielonych Słupków"
 			tasks: [
 				{
-					id: "000000000000087F"
+					id: "00000000000008A2"
 					title: "Rozumiem 3 słupki kotła!"
 					type: "checkmark"
 				}
@@ -227,20 +227,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["000000000000087E"]
+			dependencies: ["00000000000008A1"]
 			description: [
 				"Zbierz komplet części na swój pierwszy pełnoprawny kocioł parowy z &6Steam Engine&r."
 			]
-			id: "0000000000000881"
+			id: "00000000000008A4"
 			rewards: [
 				{
-					id: "0000000000000886"
+					id: "00000000000008A9"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 4
-					id: "0000000000000887"
+					id: "00000000000008AA"
 					item: "minecraft:lava_bucket"
 					type: "item"
 				}
@@ -251,25 +251,25 @@
 			tasks: [
 				{
 					count: 2L
-					id: "0000000000000882"
+					id: "00000000000008A5"
 					item: "create:steam_engine"
 					type: "item"
 				}
 				{
 					count: 12L
-					id: "0000000000000883"
+					id: "00000000000008A6"
 					item: "create:fluid_tank"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "0000000000000884"
+					id: "00000000000008A7"
 					item: "create:blaze_burner"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "0000000000000885"
+					id: "00000000000008A8"
 					item: "create:mechanical_pump"
 					type: "item"
 				}
@@ -279,7 +279,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000867"]
+			dependencies: ["000000000000088A"]
 			description: [
 				"Budowa pociągu ma ścisłą kolejność – pominięcie kroku uniemożliwi start:",
 				"",
@@ -287,14 +287,14 @@
 				"2. Weź do ręki &6Train Station&r, kliknij &aLPM na tor&r (pojawi się strzałka kierunku jazdy), a potem postaw blok Stacji obok toru.",
 				"3. Otwórz GUI Stacji i kliknij przycisk &b[Create New Train]&r – na torach pojawią się niebieskie podświetlone pola.",
 				"4. Kliknij &6Train Casingiem&r (albo gotowym wózkiem Bogey ze Steam 'n' Rails) na niebieskie pole na torze – powstanie wózek z kołami!",
-				"5. Zbuduj na wózku kabinę, postaw na niej &6Train Controls&r skierowane zgodnie ze strzałką na torze oraz fotel (&eSeat&r).",
+				"5. Zbuduj na wózku kabinę, postaw na niej &6Train Controls&r skierowane zgodnie ze strzałką na torze oraz fotel (&eSeat&r z Create: Interiors).",
 				"6. &c&lNAJWAŻNIEJSZE:&r Sklej cały wagon (razem z wózkiem na torze!) za pomocą &aSuper Glue&r na zielono!",
 				"7. Wróć do Stacji, wpisz nazwę pociągu i kliknij &a[Assemble Train]&r!"
 			]
-			id: "0000000000000888"
+			id: "00000000000008AB"
 			rewards: [
 				{
-					id: "000000000000088A"
+					id: "00000000000008AD"
 					type: "xp"
 					xp: 200
 				}
@@ -304,7 +304,7 @@
 			subtitle: "Przeczytaj uważnie! (Steam 'n' Rails)"
 			tasks: [
 				{
-					id: "0000000000000889"
+					id: "00000000000008AC"
 					title: "Wiem jak złożyć pociąg!"
 					type: "checkmark"
 				}
@@ -314,26 +314,26 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0000000000000888"]
+			dependencies: ["00000000000008AB"]
 			description: [
 				"Wykraftuj na linii montażowej tory, stację kolejową, sterownice oraz gwizdek parowy. W nagrodę otrzymasz duży zapas torów i mostów!"
 			]
-			id: "000000000000088B"
+			id: "00000000000008AE"
 			rewards: [
 				{
-					id: "0000000000000891"
+					id: "00000000000008B4"
 					type: "xp"
 					xp: 450
 				}
 				{
 					count: 128
-					id: "0000000000000892"
+					id: "00000000000008B5"
 					item: "create:track"
 					type: "item"
 				}
 				{
 					count: 32
-					id: "0000000000000893"
+					id: "00000000000008B6"
 					item: "mcwbridges:iron_bridge_pier"
 					type: "item"
 				}
@@ -344,31 +344,31 @@
 			tasks: [
 				{
 					count: 32L
-					id: "000000000000088C"
+					id: "00000000000008AF"
 					item: "create:track"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "000000000000088D"
+					id: "00000000000008B0"
 					item: "create:track_station"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "000000000000088E"
+					id: "00000000000008B1"
 					item: "create:railway_casing"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "000000000000088F"
+					id: "00000000000008B2"
 					item: "create:controls"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "0000000000000890"
+					id: "00000000000008B3"
 					item: "create:steam_whistle"
 					type: "item"
 				}
@@ -378,23 +378,23 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["000000000000088B"]
+			dependencies: ["00000000000008AE"]
 			description: [
 				"Chcesz, aby pociąg sam woził rudy lub ropę z dalekich kopalń?",
 				"• Posadź na fotelu przed sterownicą dowolnego moba (albo &6Blaze Burnera&r!).",
 				"• Kliknij na niego wypełnionym rozkładem jazdy (&6Train Schedule&r).",
 				"• Pociągi Create potrafią jeździć nawet przez &eniezaładowane chunki&r po całej mapie! Używaj &6Train Signal&r, aby dzielić tory na bloki i unikać zderzeń."
 			]
-			id: "0000000000000894"
+			id: "00000000000008B7"
 			rewards: [
 				{
-					id: "0000000000000898"
+					id: "00000000000008BB"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 128
-					id: "0000000000000899"
+					id: "00000000000008BC"
 					item: "create:track"
 					type: "item"
 				}
@@ -405,19 +405,19 @@
 			tasks: [
 				{
 					count: 2L
-					id: "0000000000000895"
+					id: "00000000000008B8"
 					item: "create:schedule"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "0000000000000896"
+					id: "00000000000008B9"
 					item: "create:track_signal"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "0000000000000897"
+					id: "00000000000008BA"
 					item: "create:portable_storage_interface"
 					type: "item"
 				}

@@ -1,0 +1,13 @@
+name = "Create: Addon Startup Fix"
+filename = "Create-Addon-Startup-Fix-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0bf80d141ee378c31778cefe501dc334b2a5a29b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8978504
+project-id = 1712365

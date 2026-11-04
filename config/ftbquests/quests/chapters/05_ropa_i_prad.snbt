@@ -4,7 +4,7 @@
 	filename: "05_ropa_i_prad"
 	group: ""
 	icon: "createdieselgenerators:diesel_engine"
-	id: "00000000000008C1"
+	id: "00000000000008E5"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -15,13 +15,13 @@
 				"",
 				"1. &aSzukanie złoża:&r Chodź po świecie i klikaj PPM trzymając &6Oil Scanner&r. Szukaj chunka, w którym skaner pokaże złoże ropy!",
 				"2. &bOdwiert:&r Na tym chunku wykop dziurę do samego &lBedrocka&r i poprowadź od samego dna pionowo w górę rury (&6Fluid Pipe&r). Na górze postaw &6Pumpjack Hole&r.",
-				"3. &6Ramie Kiwona:&r Nad dziurą zbuduj słup i zamontuj poziomo belkę na &6Pumpjack Bearing&r (łożysku). Na końcu belki od strony dziury daj &6Pumpjack Head&r, a z tyłu daj &6Pumpjack Crank&r (korbę).",
+				"3. &6Ramię Kiwona:&r Nad dziurą zbuduj słup i zamontuj poziomo belkę na &6Pumpjack Bearing&r (łożysku). Na końcu belki od strony dziury daj &6Pumpjack Head&r, a z tyłu daj &6Pumpjack Crank&r (korbę).",
 				"4. &cSklejenie:&r Sklej samą górną ruchomą belkę (od łożyska przez głowicę do miejsca nad korbą) za pomocą &aSuper Glue&r, kliknij na łożysko pustą ręką i podłącz napęd do korby!"
 			]
-			id: "000000000000089B"
+			id: "00000000000008BE"
 			rewards: [
 				{
-					id: "000000000000089D"
+					id: "00000000000008C0"
 					type: "xp"
 					xp: 150
 				}
@@ -31,7 +31,7 @@
 			subtitle: "Instrukcja: Diesel Generators"
 			tasks: [
 				{
-					id: "000000000000089C"
+					id: "00000000000008BF"
 					title: "Zrozumiałem budowę Kiwona!"
 					type: "checkmark"
 				}
@@ -41,20 +41,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["000000000000089B"]
+			dependencies: ["00000000000008BE"]
 			description: [
 				"Zbierz od razu wszystkie elementy wymagane do złożenia jednego działającego kiwona naftowego. Użyj podpowiedzi &6[W] Ponder&r na głowicy, aby zobaczyć układ 3D!"
 			]
-			id: "000000000000089E"
+			id: "00000000000008C1"
 			rewards: [
 				{
-					id: "00000000000008A4"
+					id: "00000000000008C7"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 64
-					id: "00000000000008A5"
+					id: "00000000000008C8"
 					item: "create:fluid_pipe"
 					type: "item"
 				}
@@ -65,31 +65,31 @@
 			tasks: [
 				{
 					count: 1L
-					id: "000000000000089F"
+					id: "00000000000008C2"
 					item: "createdieselgenerators:oil_scanner"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "00000000000008A0"
+					id: "00000000000008C3"
 					item: "createdieselgenerators:pumpjack_head"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "00000000000008A1"
+					id: "00000000000008C4"
 					item: "createdieselgenerators:pumpjack_crank"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "00000000000008A2"
+					id: "00000000000008C5"
 					item: "createdieselgenerators:pumpjack_bearing"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "00000000000008A3"
+					id: "00000000000008C6"
 					item: "createdieselgenerators:pumpjack_hole"
 					type: "item"
 				}
@@ -99,7 +99,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["000000000000089E"]
+			dependencies: ["00000000000008C1"]
 			description: [
 				"&e&lJAK ZBUDOWAĆ RAFINERIĘ:&r",
 				"1. Postaw pionową wieżę ze zwykłych zbiorników &6Fluid Tank&r (np. wysokość 4 bloki).",
@@ -107,33 +107,33 @@
 				"3. Weź do ręki &6Distillation Controller&r i kliknij nim &aPPM na zbiornik&r – zwykły zbiornik zamieni się w kolumnę rektyfikacyjną z okienkami!",
 				"4. Wpompuj na sam dół surową Ropę (&8Crude Oil&r) – na wyższych piętrach wieży oddzieli się &6Diesel&r oraz &eGasoline (Benzyna)&r!"
 			]
-			id: "00000000000008A6"
+			id: "00000000000008C9"
 			rewards: [
 				{
-					id: "00000000000008A9"
+					id: "00000000000008CC"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 8
-					id: "00000000000008AA"
+					id: "00000000000008CD"
 					item: "create:fluid_tank"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Crude Oil -> Diesel & Benzyna"
+			subtitle: "Crude Oil -> Diesel \& Benzyna"
 			tasks: [
 				{
 					count: 6L
-					id: "00000000000008A7"
+					id: "00000000000008CA"
 					item: "createdieselgenerators:distillation_controller"
 					type: "item"
 				}
 				{
 					count: 6L
-					id: "00000000000008A8"
+					id: "00000000000008CB"
 					item: "create:fluid_tank"
 					type: "item"
 				}
@@ -143,20 +143,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000008A6"]
+			dependencies: ["00000000000008C9"]
 			description: [
 				"Doprowadź rurą paliwo do &6Diesel Engine&r lub połącz w rząd kilka &6Modular Diesel Engine&r, aby uzyskać ogromną ilość SU na bardzo małej przestrzeni!"
 			]
-			id: "00000000000008AB"
+			id: "00000000000008CE"
 			rewards: [
 				{
-					id: "00000000000008AF"
+					id: "00000000000008D2"
 					type: "xp"
 					xp: 450
 				}
 				{
 					count: 2
-					id: "00000000000008B0"
+					id: "00000000000008D3"
 					item: "createdieselgenerators:canister"
 					type: "item"
 				}
@@ -167,19 +167,19 @@
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000008AC"
+					id: "00000000000008CF"
 					item: "createdieselgenerators:diesel_engine"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "00000000000008AD"
+					id: "00000000000008D0"
 					item: "createdieselgenerators:modular_diesel_engine"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "00000000000008AE"
+					id: "00000000000008D1"
 					item: "createdieselgenerators:engine_silencer"
 					type: "item"
 				}
@@ -191,84 +191,91 @@
 		{
 			dependencies: []
 			description: [
-				"Przepuść blachy miedzi, żelaza i złota przez walcarkę (&6Rolling Mill&r), aby uzyskać druty, a następnie nawiń je na szpule (&6Spool&r)."
+				"• &6Rolling Mill:&r Przepuść blachy miedzi, żelaza i złota przez walcarkę, aby uzyskać druty, a następnie nawiń je na szpule (&6Spool&r).",
+				"• &aStraw (Słomka):&r Kliknij nią PPM na &eBlaze Burnera&r! Od teraz Płomyk może pić płynne paliwo (Lawę, Diesel, Benzynę, Bioetanol) prosto z miedzianej rury bez użycia Deployerów z wiadrami!"
 			]
-			id: "00000000000008B1"
+			id: "00000000000008D4"
 			rewards: [
 				{
-					id: "00000000000008B5"
+					id: "00000000000008D9"
 					type: "xp"
 					xp: 250
 				}
 				{
 					count: 16
-					id: "00000000000008B6"
+					id: "00000000000008DA"
 					item: "createaddition:copper_spool"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Create Crafts & Additions"
+			subtitle: "Create Crafts \& Additions"
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000008B2"
+					id: "00000000000008D5"
 					item: "createaddition:rolling_mill"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "00000000000008B3"
+					id: "00000000000008D6"
 					item: "createaddition:copper_spool"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "00000000000008B4"
+					id: "00000000000008D7"
 					item: "createaddition:connector"
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "00000000000008D8"
+					item: "createaddition:straw"
+					type: "item"
+				}
 			]
-			title: "Walcownia Drutu i Kabli"
+			title: "Walcownia Drutu i Słomka dla Płomyka"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["00000000000008B1"]
+			dependencies: ["00000000000008D4"]
 			description: [
 				"Zamiast ciągnąć długie wały przez całą bazę:",
-				"1. Podłącz &6Alternator&r do szybkiego źródła ruchu (np. silnika parowego lub spalinowego) – zamieni on SU na prąd elektryczny (FE).",
+				"1. Podłącz &6Alternator&r do szybkiego źródła ruchu (np. silnika parowego lub spalinowego) – zamieni on SU na prąd elektryczny (&bFE&r).",
 				"2. Postaw na maszynach złączki (&6Connector&r) i połącz je przewodem (&6Copper Spool&r).",
-				"3. Na drugim końcu bazy postaw &6Electric Motor&r – zamieni on prąd z powrotem na ruch obrotowy o dowolnej prędkości (regulowanej na boku silnika)!"
+				"3. &a&lWSKAZÓWKA:&r Prądem z Alternatora zasilisz cały swój komputer **Applied Energistics 2** w następnym rozdziale!"
 			]
-			id: "00000000000008B7"
+			id: "00000000000008DB"
 			rewards: [
 				{
-					id: "00000000000008BA"
+					id: "00000000000008DE"
 					type: "xp"
 					xp: 400
 				}
 				{
 					count: 8
-					id: "00000000000008BB"
+					id: "00000000000008DF"
 					item: "createaddition:large_connector"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Konwersja SU <-> FE (Prąd)"
+			subtitle: "Konwersja SU <-> FE (Zasilanie AE2!)"
 			tasks: [
 				{
 					count: 2L
-					id: "00000000000008B8"
+					id: "00000000000008DC"
 					item: "createaddition:alternator"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "00000000000008B9"
+					id: "00000000000008DD"
 					item: "createaddition:electric_motor"
 					type: "item"
 				}
@@ -278,38 +285,38 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["00000000000008B7"]
+			dependencies: ["00000000000008DB"]
 			description: [
 				"&6Modular Accumulator&r działa jak gigantyczna bateria wieloblokowa magazynująca miliony jednostek prądu FE.",
-				"&6Tesla Coil&r postawiona nad Depotem pozwala ładować przedmioty prądem lub razić moby piorunami po podaniu sygnału Redstone!"
+				"&6Tesla Coil&r postawiona nad Depotem pozwala ładować przedmioty prądem (np. Certus Quartz!) lub razić moby piorunami po podaniu sygnału Redstone!"
 			]
-			id: "00000000000008BC"
+			id: "00000000000008E0"
 			rewards: [
 				{
-					id: "00000000000008BF"
+					id: "00000000000008E3"
 					type: "xp"
 					xp: 450
 				}
 				{
 					count: 8
-					id: "00000000000008C0"
+					id: "00000000000008E4"
 					item: "createaddition:capacitor"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Modular Accumulator & Tesla Coil"
+			subtitle: "Modular Accumulator \& Tesla Coil"
 			tasks: [
 				{
 					count: 4L
-					id: "00000000000008BD"
+					id: "00000000000008E1"
 					item: "createaddition:modular_accumulator"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "00000000000008BE"
+					id: "00000000000008E2"
 					item: "createaddition:tesla_coil"
 					type: "item"
 				}

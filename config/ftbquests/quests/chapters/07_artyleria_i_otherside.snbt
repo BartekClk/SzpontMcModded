@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "07_artyleria_i_otherside"
+	group: ""
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "0000000000000943"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"W tym modzie nie wyklikasz dobrej armaty w zwykłym stole rzemieślniczym. Proces wygląda jak w prawdziwej hucie:",
+				"",
+				"1. &6Topienie metalu:&r Postaw &6Foundry Basin&r z pokrywką (&6Foundry Lid&r) na gorącym Blaze Burnerze, aby wytopić płynne żeliwo (Molten Cast Iron) lub brąz.",
+				"2. &eOdlewanie (Casting):&r Postaw na ziemi drewniane ramki &6Casting Sand&r, wciśnij w nie formę rozmiaru lufy (np. &aMedium Cannon Mould&r) i wlej do środka płynny metal przez rurę ze Spoutem. Otrzymasz pełny, niewywiercony odlew (&7Unbored Cannon&r).",
+				"3. &bWiercenie lufy (Boring):&r Postaw odlew na tokarce (obracającym się &6Mechanical Bearing&r) i wjedź w jego środek wiertarką lufową (&6Cannon Drill&r) zasilaną wodą przez pompę!",
+				"4. &aMontaż:&r Złóż wywiercone segmenty lufy z zamkiem (&6Cannon Breech&r) na łożu (&6Cannon Mount&r) i sklej lufę (lub użyj Cannon Weldera)!"
+			]
+			id: "000000000000091D"
+			rewards: [
+				{
+					id: "000000000000091F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Instrukcja: Create Big Cannons"
+			tasks: [
+				{
+					id: "000000000000091E"
+					title: "Zrozumiałem proces odlewniczy!"
+					type: "checkmark"
+				}
+			]
+			title: "&cJak odlać i wywiercić Lufę Armaty?"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000000000000091D"]
+			description: [
+				"Zbuduj piec odlewniczy oraz piasek formierski do odlewania pierwszych segmentów dział."
+			]
+			id: "0000000000000920"
+			rewards: [
+				{
+					id: "0000000000000924"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 8
+					id: "0000000000000925"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Foundry Basin \& Casting Sand"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000921"
+					item: "createbigcannons:basin_foundry_lid"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000922"
+					item: "createbigcannons:casting_sand"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000923"
+					item: "createbigcannons:medium_cast_mould"
+					type: "item"
+				}
+			]
+			title: "Odlewnia Artyleryjska"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000920"]
+			description: [
+				"Zbuduj wiertarkę lufową (&6Cannon Drill&r) do rozwiercania pełnych odlewów oraz obrotowe łoże armatnie (&6Cannon Mount&r)."
+			]
+			id: "0000000000000926"
+			rewards: [
+				{
+					id: "000000000000092A"
+					type: "xp"
+					xp: 450
+				}
+				{
+					count: 32
+					id: "000000000000092B"
+					item: "createbigcannons:packed_gunpowder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Cannon Drill \& Cannon Mount"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000927"
+					item: "createbigcannons:cannon_drill"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000928"
+					item: "createbigcannons:cannon_mount"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000929"
+					item: "createbigcannons:yaw_controller"
+					type: "item"
+				}
+			]
+			title: "Tokarka Lufowa i Łoże Działa"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: [
+				"Pamiętaj: Armata ładowana odtylcowo wymaga najpierw włożenia &6Pocisku (Projectile/Shell)&r, a za nim odpowiedniej ilości &6Ładunków Prochowych (Powder Charge)&r!",
+				"Zamknij zamek i podaj sygnał Redstone na &6Cannon Mount&r, aby oddać strzał!"
+			]
+			id: "000000000000092C"
+			rewards: [
+				{
+					id: "0000000000000930"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 16
+					id: "0000000000000931"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Proch, Pociski i Zapalniki"
+			tasks: [
+				{
+					count: 8L
+					id: "000000000000092D"
+					item: "createbigcannons:powder_charge"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "000000000000092E"
+					item: "createbigcannons:solid_shot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000092F"
+					item: "createbigcannons:impact_fuze"
+					type: "item"
+				}
+			]
+			title: "Amunicja i Ładunki Miotające"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: []
+			description: [
+				"Masz nadmiar stali, procesorów AE2, paliwa albo amunicji? Postaw &6Vending Machine&r na głównej stacji kolejowej i handluj automatycznie z innymi graczami na serwerze!"
+			]
+			id: "0000000000000932"
+			rewards: [
+				{
+					id: "0000000000000934"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 4
+					id: "0000000000000935"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Tom's Trading Network"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000933"
+					item: "toms_trading_network:vending_machine"
+					type: "item"
+				}
+			]
+			title: "Wolny Rynek Serwerowy"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: []
+			description: [
+				"Wielka rama z Reinforced Deepslate na środku Podziemnego Miasta (Ancient City) to prawdziwy portal do mrocznego wymiaru &bOtherside&r!",
+				"",
+				"&e&lINSTRUKCJA OTWARCIA PORTALU:&r",
+				"1. Zejdź do biomu Deep Dark, przywołaj i pokonaj &3Wardena&r – wypadnie z niego &bHeart of the Deep&r.",
+				"2. &c&lBARDZO WAŻNE:&r Portal nie zapali się, jeśli wewnątrz ramy są jakiekolwiek narośla! Weź motykę i &adokładnie oczyść wnętrze wielkiej ramy ze wszystkich Sculk Veins&r.",
+				"3. Kliknij &6Heart of the Deep&r prawym przyciskiem myszy na wewnętrzną krawędź ramy z Reinforced Deepslate – zapłonie mroczny portal!"
+			]
+			id: "0000000000000936"
+			rewards: [
+				{
+					id: "0000000000000938"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Instrukcja: Deeper and Darker (Otherside)"
+			tasks: [
+				{
+					id: "0000000000000937"
+					title: "Wiem jak oczyścić i odpalić portal!"
+					type: "checkmark"
+				}
+			]
+			title: "&3Jak otworzyć Portal w Ancient City?"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000936"]
+			description: [
+				"Pokonaj Wardena w podziemiach, zdobądź jego serce (&6Heart of the Deep&r) oraz wzmocnione odłamki echa (&bReinforced Echo Shard&r), aby wkroczyć do wymiaru Otherside."
+			]
+			id: "0000000000000939"
+			rewards: [
+				{
+					id: "000000000000093C"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 8
+					id: "000000000000093D"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "000000000000093E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Heart of the Deep"
+			tasks: [
+				{
+					count: 1L
+					id: "000000000000093A"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "000000000000093B"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+			]
+			title: "Pogromca Nadzorcy"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000939"]
+			description: [
+				"W wymiarze &bOtherside&r znajdziesz nowe struktury, bossa &3Stalkera&r oraz surowce potrzebne do wykucia rynsztunku Wardena (przewyższającego statystykami Netheryt!)."
+			]
+			id: "000000000000093F"
+			rewards: [
+				{
+					id: "0000000000000941"
+					type: "xp"
+					xp: 800
+				}
+				{
+					count: 2
+					id: "0000000000000942"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Trofea z wymiaru Otherside"
+			tasks: [
+				{
+					count: 2L
+					id: "0000000000000940"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+			]
+			title: "Pancerz z Pancerza Wardena"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "7. Artyleria i Otherside"
+}

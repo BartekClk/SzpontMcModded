@@ -4,7 +4,7 @@
 	filename: "01_logistyka"
 	group: ""
 	icon: "toms_storage:ts.crafting_terminal"
-	id: "0000000000000809"
+	id: "000000000000082C"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -17,16 +17,16 @@
 				"• &aKliknięcie PPM:&r wkłada przedmiot (2x PPM wkłada wszystkie pasujące z ekwipunku!).",
 				"• &aKliknięcie LPM:&r wyjmuje 1 sztukę (&6Shift + LPM&r wyjmuje cały stack)."
 			]
-			id: "00000000000007EA"
+			id: "00000000000007F8"
 			rewards: [
 				{
-					id: "00000000000007EC"
+					id: "00000000000007FA"
 					type: "xp"
 					xp: 100
 				}
 				{
 					count: 8
-					id: "00000000000007ED"
+					id: "00000000000007FB"
 					item: "storagedrawers:oak_full_drawers_2"
 					type: "item"
 				}
@@ -37,7 +37,7 @@
 			tasks: [
 				{
 					count: 4L
-					id: "00000000000007EB"
+					id: "00000000000007F9"
 					item: "storagedrawers:oak_full_drawers_1"
 					type: "item"
 				}
@@ -47,7 +47,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000007EA"]
+			dependencies: ["00000000000007F8"]
 			description: [
 				"&bCompacting Drawers&r to jeden z najważniejszych bloków w grze.",
 				"",
@@ -55,16 +55,16 @@
 				"Wrzuć do niej np. &6Sztabki Żelaza&r. Szuflada automatycznie i bez żadnego prądu udostępni Ci w trzech okienkach jednocześnie: &aBloki Żelaza&r, &aSztabki Żelaza&r oraz &aBryłki Żelaza (Nuggets)&r!",
 				"Niezastąpione przy automatycznych pralniach żwiru z Create."
 			]
-			id: "00000000000007EE"
+			id: "00000000000007FC"
 			rewards: [
 				{
-					id: "00000000000007F0"
+					id: "00000000000007FE"
 					type: "xp"
 					xp: 200
 				}
 				{
 					count: 4
-					id: "00000000000007F1"
+					id: "00000000000007FF"
 					item: "storagedrawers:obsidian_storage_upgrade"
 					type: "item"
 				}
@@ -75,7 +75,7 @@
 			tasks: [
 				{
 					count: 2L
-					id: "00000000000007EF"
+					id: "00000000000007FD"
 					item: "storagedrawers:compacting_drawers_3"
 					type: "item"
 				}
@@ -85,68 +85,68 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["00000000000007EA"]
+			dependencies: ["00000000000007F8"]
 			description: [
 				"&6Drawer Key&r pozwala zablokować szufladę na konkretny przedmiot – nawet gdy wyjmiesz z niej ostatnią sztukę, automaty nie wrzucą tam śmieci.",
 				"&6Void Upgrade&r niszczy nadmiar surowców po zapełnieniu szuflady (chroni fabryki przed zatkaniem i lagowaniem serwera!)."
 			]
-			id: "00000000000007F2"
+			id: "0000000000000800"
 			rewards: [
 				{
-					id: "00000000000007F6"
+					id: "0000000000000804"
 					type: "xp"
 					xp: 150
 				}
 				{
 					count: 4
-					id: "00000000000007F7"
+					id: "0000000000000805"
 					item: "storagedrawers:gold_storage_upgrade"
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Blokowanie slotów"
+			subtitle: "Blokowanie slotów i Void Upgrade"
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000007F3"
+					id: "0000000000000801"
 					item: "storagedrawers:drawer_key"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "00000000000007F4"
+					id: "0000000000000802"
 					item: "storagedrawers:void_upgrade"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "00000000000007F5"
+					id: "0000000000000803"
 					item: "storagedrawers:iron_storage_upgrade"
 					type: "item"
 				}
 			]
 			title: "Klucz i Ulepszenia Pojemności"
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["00000000000007EA"]
+			dependencies: ["00000000000007F8"]
 			description: [
 				"Postaw &6Drawer Controller&r tak, aby stykał się ze ścianą Twoich szuflad.",
 				"Wszystkie szuflady połączone ze sobą (do 12 bloków odległości) będą teraz widoczne przez ten jeden blok!"
 			]
-			id: "00000000000007F8"
+			id: "0000000000000806"
 			rewards: [
 				{
-					id: "00000000000007FA"
+					id: "0000000000000808"
 					type: "xp"
 					xp: 200
 				}
 				{
 					count: 16
-					id: "00000000000007FB"
+					id: "0000000000000809"
 					item: "storagedrawers:oak_trim"
 					type: "item"
 				}
@@ -157,7 +157,7 @@
 			tasks: [
 				{
 					count: 1L
-					id: "00000000000007F9"
+					id: "0000000000000807"
 					item: "storagedrawers:controller"
 					type: "item"
 				}
@@ -167,19 +167,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000007F8"]
+			dependencies: ["0000000000000806"]
 			description: [
 				"Wielu graczy myli dwa podstawowe bloki w tym modzie:",
 				"",
 				"1. &6Inventory Connector&r – stawia się go &aBEZPOŚREDNIO&r obok skrzynek lub obok &eDrawer Controllera&r. On skanuje przylegające magazyny.",
 				"2. &6Crafting Terminal&r – to ekran z wyszukiwarką i stołem rzemieślniczym. Musisz postawić go bezpośrednio na &6Inventory Connectorze&r!",
 				"",
-				"&7Jeśli chcesz wyciągnąć ekran do innego pokoju, użyj Inventory Cable + Inventory Cable Connector."
+				"&7Jest to idealny magazyn na start zanim zbudujesz pełną sieć komputerową Applied Energistics 2."
 			]
-			id: "00000000000007FC"
+			id: "000000000000080A"
 			rewards: [
 				{
-					id: "00000000000007FE"
+					id: "000000000000080C"
 					type: "xp"
 					xp: 50
 				}
@@ -189,7 +189,7 @@
 			subtitle: "Przeczytaj przed budową terminala!"
 			tasks: [
 				{
-					id: "00000000000007FD"
+					id: "000000000000080B"
 					title: "Rozumiem różnicę!"
 					type: "checkmark"
 				}
@@ -199,27 +199,27 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000007FC"]
+			dependencies: ["000000000000080A"]
 			description: [
 				"Zbierz komplet części, przyklej &6Inventory Connector&r do swojego &eDrawer Controllera&r, a na nim postaw &6Crafting Terminal&r.",
-				"Od teraz masz jeden wspólny magazyn z wyszukiwarką w stylu AE2, połączony z JEI!"
+				"Od teraz masz jeden wspólny magazyn z wyszukiwarką połączony z JEI!"
 			]
-			id: "00000000000007FF"
+			id: "000000000000080D"
 			rewards: [
 				{
-					id: "0000000000000802"
+					id: "0000000000000810"
 					type: "xp"
 					xp: 300
 				}
 				{
 					count: 16
-					id: "0000000000000803"
+					id: "0000000000000811"
 					item: "toms_storage:ts.inventory_cable"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "0000000000000804"
+					id: "0000000000000812"
 					item: "toms_storage:ts.inventory_cable_connector"
 					type: "item"
 				}
@@ -230,37 +230,36 @@
 			tasks: [
 				{
 					count: 1L
-					id: "0000000000000800"
+					id: "000000000000080E"
 					item: "toms_storage:ts.inventory_connector"
 					type: "item"
 				}
 				{
 					count: 1L
-					id: "0000000000000801"
+					id: "000000000000080F"
 					item: "toms_storage:ts.crafting_terminal"
 					type: "item"
 				}
 			]
-			title: "Centralny Terminal z Wyszukiwarką"
+			title: "Wczesny Terminal z Wyszukiwarką"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000007FF"]
+			dependencies: ["000000000000080D"]
 			description: [
-				"Zrób bezprzewodowy terminal i kliknij nim &6Shift + PPM&r na swój stacjonarny Crafting Terminal, aby je sparować.",
-				"Możesz teraz zaglądać do swojego magazynu z dowolnego miejsca na terenie bazy!"
+				"Zrób bezprzewodowy terminal i kliknij nim &6Shift + PPM&r na swój stacjonarny Crafting Terminal, aby je sparować."
 			]
-			id: "0000000000000805"
+			id: "0000000000000813"
 			rewards: [
 				{
-					id: "0000000000000807"
+					id: "0000000000000815"
 					type: "xp"
 					xp: 350
 				}
 				{
 					count: 4
-					id: "0000000000000808"
+					id: "0000000000000816"
 					item: "minecraft:ender_pearl"
 					type: "item"
 				}
@@ -271,15 +270,191 @@
 			tasks: [
 				{
 					count: 1L
-					id: "0000000000000806"
+					id: "0000000000000814"
 					item: "toms_storage:ts.wireless_terminal"
 					type: "item"
 				}
 			]
-			title: "Kieszonkowe Wi-Fi do Magazynu"
+			title: "Kieszonkowe Wi-Fi do Skrzyń"
 			x: 8.0d
 			y: 0.0d
 		}
+		{
+			dependencies: []
+			description: [
+				"Luźno biegający osadnicy i wielkie farmy żelaza lagują serwer. Dzięki modom &6Easy Villagers&r oraz &6Easy Piglins&r zamkniesz je w pojedynczych blokach!",
+				"",
+				"&e&lJAK ZŁAPAĆ MOBA:&r",
+				"1. Podejdź do dowolnego dorosłego Osadnika (lub Piglina w Netherze).",
+				"2. Kucnij i kliknij na niego pustą ręką &6[Shift + PPM]&r – mob wskoczy bezpośrednio do Twojego ekwipunku jako przedmiot!",
+				"3. Włóż złapanego moba klikając PPM do specjalnej gabloty (&aTrader&r, &aIron Farm&r, &aFarmer&r lub &aBarterer&r).",
+				"",
+				"&c&lBALANS SERWEROWY:&r Czas odnawiania ofert (restock) w blokach handlowych został wydłużony, aby zachować zdrową ekonomię serwera!"
+			]
+			id: "0000000000000817"
+			rewards: [
+				{
+					id: "0000000000000819"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Instrukcja: Easy Villagers \& Easy Piglins"
+			tasks: [
+				{
+					id: "0000000000000818"
+					title: "Wiem jak łapać moby przez Shift+PPM!"
+					type: "checkmark"
+				}
+			]
+			title: "&aJak schować Osadnika do Kieszeni?"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000817"]
+			description: [
+				"• &6Trader:&r Postaw gablotę, kliknij do środka stołem pracy (np. Pulpitem dla Bibliotekarza) i włóż Osadnika. Dopóki nie kupisz od niego pierwszego przedmiotu, możesz wyjmować i wkładać stół, żeby losować oferty!",
+				"• &6Converter:&r Włóż do niego Osadnika, Złote Jabłko i Miksturę Słabości – po kilku minutach automatycznie zamieni go w Zombie i uleczy, dając &amaksymalne zniżki&r!"
+			]
+			id: "000000000000081A"
+			rewards: [
+				{
+					id: "000000000000081D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 16
+					id: "000000000000081E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "000000000000081F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Trader \& Converter"
+			tasks: [
+				{
+					count: 2L
+					id: "000000000000081B"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "000000000000081C"
+					item: "easy_villagers:converter"
+					type: "item"
+				}
+			]
+			title: "Kupiec w Gablocie i Leczenie Zniżek"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000081A"]
+			description: [
+				"• &6Iron Farm:&r Włóż do środka 1 Osadnika. Co kilka minut w klatce pojawi się Golem, który od razu zginie na kolcach i zrzuci sztabki żelaza do lejka pod spodem!",
+				"• &6Farmer:&r Włóż Osadnika oraz nasiona – produkuje plony bez wody i światła.",
+				"• &6Breeder:&r Włóż 2 Osadników i podawaj im jedzenie lejkami, aby produkować nowych mieszkańców!"
+			]
+			id: "0000000000000820"
+			rewards: [
+				{
+					id: "0000000000000824"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "0000000000000825"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0000000000000826"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Iron Farm, Farmer \& Breeder"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000821"
+					item: "easy_villagers:iron_farm"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000822"
+					item: "easy_villagers:farmer"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000823"
+					item: "easy_villagers:breeder"
+					type: "item"
+				}
+			]
+			title: "Jednoblokowa Farma Żelaza i Plonów"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000820"]
+			description: [
+				"• &6Auto Trader:&r Sam handluje z osadnikiem, gdy podasz mu surowce lejkami lub taśmociągiem Create.",
+				"• &6Barterer (Easy Piglins):&r Złap Piglina w Netherze (&eShift + PPM&r), włóż do gabloty i podawaj mu sztabki złota – automatycznie wyprodukuje Perły Endu, Kwarc, Skórę i Crying Obsidian!"
+			]
+			id: "0000000000000827"
+			rewards: [
+				{
+					id: "000000000000082A"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 32
+					id: "000000000000082B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Auto Trader \& Piglin Barterer"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000828"
+					item: "easy_villagers:auto_trader"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000829"
+					item: "easy_piglins:barterer"
+					type: "item"
+				}
+			]
+			title: "Pełna Automatyzacja Handlu i Netheru"
+			x: 6.0d
+			y: 3.0d
+		}
 	]
-	title: "1. Logistyka i Magazyn"
+	title: "1. Logistyka i Osadnicy"
 }

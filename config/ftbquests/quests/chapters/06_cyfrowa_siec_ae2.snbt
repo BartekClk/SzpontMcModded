@@ -1,0 +1,453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06_cyfrowa_siec_ae2"
+	group: ""
+	icon: "ae2:controller"
+	id: "000000000000091C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"Czas wejść w erę cyfrową! Stwórz &6Meteorite Compass&r i podążaj za jego wskazówką.",
+				"",
+				"&e&lCO ZNAJDZIESZ W METEORYCIE:&r",
+				"1. W samym środku krateru z kamienia &8Sky Stone&r znajduje się blok &bMysterious Cube&r.",
+				"2. Rozbij go kilofem, a wypadną z niego wszystkie &a4 Prasy do Inscribera&r (Logic, Calculation, Engineering, Silicon)!",
+				"3. Wykop też otaczające go bloki &bCertus Quartz&r."
+			]
+			id: "00000000000008E6"
+			rewards: [
+				{
+					id: "00000000000008E9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 16
+					id: "00000000000008EA"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Meteorite Compass \& Prasy"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000008E7"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "00000000000008E8"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Polowanie na Meteoryty"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008E6"]
+			description: [
+				"&e&lJAK ZROBIĆ Kable i Procesory:&r",
+				"1. Zasil &6Charger&r prądem (z Alternatora Create lub korbką Wooden Crank) i włóż do środka Certus Quartz -> otrzymasz &bCharged Certus Quartz&r.",
+				"2. Wrzuć do kałuży wody: &b1x Charged Certus Quartz + 1x Redstone + 1x Nether Quartz&r -> powstaną 2 kryształy &dFluix Crystal&r!",
+				"3. Przepal pył kwarcowy na &6Silicon&r i wytłocz w &6Inscriberze&r swoje pierwsze procesory (Złoto = Logic, Certus = Calculation, Diament = Engineering)."
+			]
+			id: "00000000000008EB"
+			rewards: [
+				{
+					id: "00000000000008F1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 32
+					id: "00000000000008F2"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Charger \& Inscriber"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000008EC"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000008ED"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000008EE"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000008EF"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000008F0"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Produkcja Procesorów i Fluixu"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008EB"]
+			description: [
+				"Sieć Applied Energistics 2 zamienia przedmioty w dane na dyskach twardych. Aby zadziałała, potrzebujesz 4 elementów połączonych kablem &dFluix Glass Cable&r:",
+				"",
+				"1. &aEnergy Acceptor:&r Podłącz do niego kabel elektryczny z &eAlternatora (Create)&r – dostarcza prąd całej sieci ME.",
+				"2. &bME Controller:&r Mózg sieci (świeci na kolorowo). Każda jego ścianka udostępnia &a32 kanały&r (urządzenia). Pamiętaj, że zwykły cienki kabel przenosi max &e8 kanałów&r, a gruby Dense Cable aż &e32 kanały&r!",
+				"3. &6ME Drive:&r Stacja dysków, do której wkładasz karty pamięci (&eStorage Cells&r).",
+				"4. &dME Crafting Terminal:&r Ekran przyklejony do kabla, w którym widzisz wszystkie swoje zasoby!"
+			]
+			id: "00000000000008F3"
+			rewards: [
+				{
+					id: "00000000000008F5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Przeczytaj zanim postawisz kable!"
+			tasks: [
+				{
+					id: "00000000000008F4"
+					title: "Rozumiem zasadę działania sieci ME!"
+					type: "checkmark"
+				}
+			]
+			title: "&bJak zbudować pierwszą Sieć ME?"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008F3"]
+			description: [
+				"Zbierz komplet części na swoją pierwszą sieć komputerową oraz dyski pamięci &61k&r i &64k ME Item Storage Cell&r."
+			]
+			id: "00000000000008F6"
+			rewards: [
+				{
+					id: "00000000000008FC"
+					type: "xp"
+					xp: 450
+				}
+				{
+					count: 32
+					id: "00000000000008FD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00000000000008FE"
+					item: "ae2:item_storage_cell_1k"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Kontroler, Stacja Dysków i Terminal"
+			tasks: [
+				{
+					count: 1L
+					id: "00000000000008F7"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008F8"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008F9"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "00000000000008FA"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000008FB"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+			]
+			title: "Serce Cyfrowego Magazynu"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008F6"]
+			description: [
+				"Dzięki Autocraftingowi klikasz na dowolną maszynę w terminalu, wpisujesz np. 100 sztuk, a sieć sama tworzy wszystkie półprodukty!",
+				"",
+				"&e&lKROK 1: KOMPUTER OBLICZENIOWY (Crafting CPU)&r",
+				"Postaw obok siebie (w kształt pełnego prostopadłościanu, np. słupek 1x2) przynajmniej jeden blok &64k Crafting Storage&r oraz &6Crafting Co-Processing Unit&r i podłącz do kabla ME.",
+				"",
+				"&e&lKROK 2: FABRYKA (Pattern Provider + Molecular Assembler)&r",
+				"Postaw na kablu &6ME Pattern Provider&r, a wokół jego ścianek przyklej bloki &bMolecular Assembler&r (one wykonują fizyczny crafting ze stołu rzemieślniczego).",
+				"",
+				"&e&lKROK 3: KODOWANIE WZORCA (Pattern)&r",
+				"Włóż czysty &6Blank Pattern&r do &dME Pattern Encoding Terminal&r, kliknij &a[+]&r przy recepcie w JEI, kliknij strzałkę kodowania i przełóż gotowy wzorzec do swojego &6Pattern Providera&r!"
+			]
+			id: "00000000000008FF"
+			rewards: [
+				{
+					id: "0000000000000901"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Instrukcja 3 Kroków (Przeczytaj!)"
+			tasks: [
+				{
+					id: "0000000000000900"
+					title: "Zrozumiałem 3 kroki Autocraftingu!"
+					type: "checkmark"
+				}
+			]
+			title: "&6Jak działa Autocrafting w AE2?"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000008FF"]
+			description: [
+				"Zbuduj swój pierwszy procesor Crafting CPU, terminal kodowania wzorców oraz zestaw Pattern Provider + Molecular Assembler!",
+				"&7Wskazówka: Jeśli postawisz Pattern Provider bezpośrednio przy maszynie (np. przy Inscriberze, Piecu albo Basinie z Create), w trybie 'Processing Pattern' wyśle on surowce prosto do maszyny!"
+			]
+			id: "0000000000000902"
+			rewards: [
+				{
+					id: "0000000000000908"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 32
+					id: "0000000000000909"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "000000000000090A"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Komplet części pod Automatyzację"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000903"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000904"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000905"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000906"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0000000000000907"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Pierwszy System Autocraftingu"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000008F6", "0000000000000902"]
+			description: [
+				"Mod &6ExtendedAE&r usuwa wszystkie irytujące ograniczenia podstawowego AE2:",
+				"• &aExtended Inscriber:&r Przetwarza aż 4 zadania jednocześnie, przyjmuje całe stacki i pozwala wyjmować oraz wkładać przedmioty z dowolnej strony!",
+				"• &bExtended Pattern Provider:&r Mieści aż 36 wzorców w jednym bloku (4x więcej niż zwykły!).",
+				"• &eExtended Molecular Assembler:&r Wykonuje aż 8 operacji craftingu równolegle z ogromną prędkością!"
+			]
+			id: "000000000000090B"
+			rewards: [
+				{
+					id: "0000000000000910"
+					type: "xp"
+					xp: 550
+				}
+				{
+					count: 8
+					id: "0000000000000911"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Ex Inscriber, Ex Charger \& Ex Assembler"
+			tasks: [
+				{
+					count: 1L
+					id: "000000000000090C"
+					item: "expatternprovider:ex_inscriber"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "000000000000090D"
+					item: "expatternprovider:ex_charger"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "000000000000090E"
+					item: "expatternprovider:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "000000000000090F"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "&dExtendedAE: Koniec z wolnym Inscriberem!"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008F6"]
+			description: [
+				"Nie chcesz kopać tuneli na kable między fabrykami?",
+				"Postaw jeden &6ME Wireless Connector&r przy swoim Kontrolerze, a drugi w odległej fabryce. Sparuj je klikając &aShift + PPM&r za pomocą &6ME Wireless Setup Kit&r – prześlą prąd i 32 kanały przez powietrze!"
+			]
+			id: "0000000000000912"
+			rewards: [
+				{
+					id: "0000000000000915"
+					type: "xp"
+					xp: 450
+				}
+				{
+					count: 16
+					id: "0000000000000916"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "ME Wireless Connector"
+			tasks: [
+				{
+					count: 2L
+					id: "0000000000000913"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0000000000000914"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			title: "Bezprzewodowe Przesyłanie Kanałów"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000090B"]
+			description: [
+				"&6Reaction Chamber (Komora Reakcyjna)&r z moda &bAdvancedAE&r pozwala produkować aż 64 kryształy Fluix naraz w ułamku sekundy oraz wytapiać potężny &dQuantum Alloy&r.",
+				"Ze stopu kwantowego zbudujesz wieloblokowy Komputer Kwantowy oraz Pancerz Kwantowy z wbudowanym dostępem do sieci ME!"
+			]
+			id: "0000000000000917"
+			rewards: [
+				{
+					id: "000000000000091A"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "000000000000091B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Reaction Chamber \& Quantum Alloy"
+			tasks: [
+				{
+					count: 1L
+					id: "0000000000000918"
+					item: "advanced_ae:reaction_chamber"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000919"
+					item: "advanced_ae:quantum_alloy"
+					type: "item"
+				}
+			]
+			title: "&bAdvancedAE: Technologia Kwantowa"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "6. Cyfrowa Sieć (AE2)"
+}
