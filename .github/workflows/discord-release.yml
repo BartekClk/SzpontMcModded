@@ -1,0 +1,59 @@
+name: Discord Release Announcer
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  discord-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Release Embed to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          RELEASE_TITLE: ${{ github.event.release.name }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+        run: |
+          python3 -c "
+          import os, json, urllib.request
+
+          webhook_url = os.environ['DISCORD_WEBHOOK']
+          tag = os.environ.get('RELEASE_TAG', '')
+          title = os.environ.get('RELEASE_TITLE') or tag
+          url = os.environ.get('RELEASE_URL', '')
+          body = os.environ.get('RELEASE_BODY') or 'Brak opisu zmian.'
+
+          if len(body) > 1500:
+              body = body[:1497] + '...'
+
+          payload = {
+              'username': 'SZPONT MC',
+              'embeds': [
+                  {
+                      'title': f'🚀 Nowa aktualizacja paczki: {title}',
+                      'url': url,
+                      'description': f'**Wersja:** \`{tag}\`\n\n**Lista zmian:**\n{body}',
+                      'color': 3066993,
+                      'fields': [
+                          {
+                              'name': 'Pobieranie',
+                              'value': f'[Kliknij tutaj, aby przejść do wydania]({url})',
+                              'inline': False
+                          }
+                      ],
+                      'footer': {
+                          'text': 'szpontmc.com • Zaktualizuj paczkę w launcherze przed wejściem!'
+                      }
+                  }
+              ]
+          }
+
+          req = urllib.request.Request(
+              webhook_url,
+              data=json.dumps(payload).encode('utf-8'),
+              headers={'Content-Type': 'application/json', 'User-Agent': 'GitHub-Actions'}
+          )
+          urllib.request.urlopen(req)
+          "
