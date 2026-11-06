@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/discord-release.yml"
+hash = "4aeb2bc0c2fa0e9281bbbe5c3b9b557e4496184cd81f7a86f6c9a42e56a4736f"
+
+[[files]]
 file = "README.md"
 hash = "2f9fb6ee1d697a8877607ebcf0965dce7002dc7de99aaa71d5c3c2d24c69e321"
 
