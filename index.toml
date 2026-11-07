@@ -1,30 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/README.md"
-hash = "d4091554e863a0f3e1fe432aaf1c5c170bcf8c1030931f959baf2712736ea99a"
-
-[[files]]
-file = ".github/workflows/canary_deploy.yml"
-hash = "255c886e16b4a2af72ad08979a458560557ef3685a85832f203bd15ee3d527fe"
-
-[[files]]
-file = ".github/workflows/discord-release.yml"
-hash = "4aeb2bc0c2fa0e9281bbbe5c3b9b557e4496184cd81f7a86f6c9a42e56a4736f"
-
-[[files]]
-file = ".github/workflows/update-modlist.yml"
-hash = "7f82033863807824ea62147d3bdadfd3d653cd32912b5fc2272b4a46ad5d5a09"
-
-[[files]]
-file = ".scripts/generateQuests.py"
-hash = "64ba865fc927b5e386f28777ff3f62eb7546233ea8f4bb52891531d72a3d881e"
-
-[[files]]
-file = ".scripts/update_mods_md.py"
-hash = "ce334774ea294c06a708b85b51ea9b09156eed1b09c9662a0210bfa8afd85eb7"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
 hash = "973b9960857be5400b18a4c240b232c37cdaa06b95b54230df60b6628898107f"
 

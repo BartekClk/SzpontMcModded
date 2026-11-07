@@ -1,0 +1,17 @@
+# Git i GitHub
+.git/
+.github/
+.gitignore
+.gitattributes
+.packwizignore
+
+# Dokumentacja i pliki tekstowe
+README.md
+*.md
+LICENSE
+
+# Skrypty i automatyzacja
+*.py
+*.sh
+*.yml
+*.yaml
