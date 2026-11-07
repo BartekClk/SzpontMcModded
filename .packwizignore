@@ -1,0 +1,9 @@
+cat << 'EOF' > .packwizignore
+.git/**
+.github/**
+.gitignore
+.gitattributes
+.packwizignore
+README.md
+*.md
+EOF

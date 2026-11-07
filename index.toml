@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/discord-release.yml"
-hash = "4aeb2bc0c2fa0e9281bbbe5c3b9b557e4496184cd81f7a86f6c9a42e56a4736f"
-
-[[files]]
-file = ".github/workflows/update-modlist.yml"
-hash = "52b609bdd7b198df19c31ec81a0be44bf459244b7156e2ef831c562a002c91c5"
-
-[[files]]
-file = "README.md"
-hash = "f7517d436e4e12b380e1b208e3321dfd37741868f0e03fa378942fe9f3d00600"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
 hash = "973b9960857be5400b18a4c240b232c37cdaa06b95b54230df60b6628898107f"
 
