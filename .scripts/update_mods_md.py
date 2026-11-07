@@ -4,7 +4,7 @@ import re
 import tomllib
 
 MODS_DIR = "mods"
-README_PATH = "README.md"
+README_PATH = ".github/README.md"
 START_TAG = "<!-- MODS_START -->"
 END_TAG = "<!-- MODS_END -->"
 
