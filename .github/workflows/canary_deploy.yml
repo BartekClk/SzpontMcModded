@@ -1,0 +1,162 @@
+name: Canary Test & Automated Deploy
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  canary-test:
+    name: Headless Forge 1.20.1 Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Modpack Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Cache Forge Server Engine & Libraries
+        id: cache-forge
+        uses: actions/cache@v4
+        with:
+          path: |
+            canary-server/libraries
+            canary-server/forge-*.jar
+            canary-server/minecraft_server.*.jar
+          key: forge-1.20.1-47.4.28-v1
+
+      - name: Setup Clean Forge Server
+        run: |
+          mkdir -p canary-server
+          cd canary-server
+          
+          echo "eula=true" > eula.txt
+          cat << 'EOF' > server.properties
+          online-mode=false
+          max-tick-time=-1
+          view-distance=6
+          simulation-distance=4
+          sync-chunk-writes=false
+          EOF
+
+          # Pobranie instalatora Forge jeśli brak w pamięci podręcznej
+          if [ ! -d "libraries/net/minecraftforge/forge/1.20.1-47.4.28" ]; then
+            echo "Pobieranie instalatora Forge 47.4.28..."
+            curl -sLo forge-installer.jar https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-installer.jar
+            java -jar forge-installer.jar --installServer
+            rm forge-installer.jar
+          fi
+
+          # Pobranie packwiz-installer-bootstrap
+          curl -sLo packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Install Modpack via Packwiz
+        run: |
+          cd canary-server
+          # Instalacja paczki bezpośrednio z lokalnego pliku repozytorium
+          java -jar packwiz-installer-bootstrap.jar -s server ../pack.toml
+
+      - name: Execute Headless Run & Validate Startup
+        run: |
+          cd canary-server
+          
+          ARGS_FILE="libraries/net/minecraftforge/forge/1.20.1-47.4.28/unix_args.txt"
+          if [ ! -f "$ARGS_FILE" ]; then
+            echo "BŁĄD: Nie znaleziono pliku $ARGS_FILE!"
+            exit 1
+          fi
+
+          echo "Uruchamianie serwera testowego Forge..."
+          java -Xmx5G -Xms2G @$ARGS_FILE nogui > canary_run.log 2>&1 &
+          SERVER_PID=$!
+
+          SUCCESS=0
+          START_TIME=$(date +%s)
+          TIMEOUT_SECONDS=210
+
+          while kill -0 $SERVER_PID 2>/dev/null; do
+            CURRENT_TIME=$(date +%s)
+            ELAPSED=$((CURRENT_TIME - START_TIME))
+
+            if grep -q "Done (" canary_run.log; then
+              echo "✅ Canary Test PASSED: Serwer wstał w ${ELAPSED}s!"
+              SUCCESS=1
+              break
+            fi
+
+            if [ $ELAPSED -gt $TIMEOUT_SECONDS ]; then
+              echo "❌ Canary Test TIMEOUT: Przekroczono limit $TIMEOUT_SECONDS sekund."
+              break
+            fi
+
+            sleep 3
+          done
+
+          # Zatrzymanie procesu testowego
+          kill $SERVER_PID 2>/dev/null || true
+          wait $SERVER_PID 2>/dev/null || true
+
+          if [ $SUCCESS -ne 1 ]; then
+            echo "====================== OSTATNIE LINIE LOGU ======================"
+            tail -n 80 canary_run.log
+            echo "================================================================"
+            exit 1
+          fi
+
+      - name: Notify Discord on Canary Failure
+        if: failure()
+        run: |
+          if [ -n "${{ secrets.DISCORD_WEBHOOK_URL }}" ]; then
+            PAYLOAD=$(cat << 'JSON'
+            {
+              "embeds": [{
+                "title": "🚨 Canary Test FAILED - Wdrożenie zablokowane!",
+                "description": "Wykryto błąd krytyczny modów podczas testowego rozruchu serwera w GitHub Actions. Serwer produkcyjny nie został zmodyfikowany.",
+                "color": 15158332,
+                "fields": [
+                  {"name": "Commit", "value": "${{ github.sha }}", "inline": true},
+                  {"name": "Autor", "value": "${{ github.actor }}", "inline": true}
+                ],
+                "footer": {"text": "SzpontMc CI/CD Safety Guard"}
+              }]
+            }
+          JSON
+          )
+            curl -s -H "Content-Type: application/json" -X POST -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK_URL }}"
+          fi
+
+  trigger-vps-deploy:
+    name: Call VPS Webhook API
+    needs: canary-test
+    runs-on: ubuntu-latest
+    if: false
+
+    steps:
+      - name: Send Deployment Request to VPS
+        run: |
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "http://${{ secrets.VPS_HOST }}:9000/api/deploy" \
+            -H "Authorization: Bearer ${{ secrets.DEPLOY_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "commit": "${{ github.sha }}",
+              "actor": "${{ github.actor }}"
+            }')
+
+          HTTP_BODY=$(echo "$RESPONSE" | head -n -1)
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n 1)
+
+          echo "Kod statusu API: $HTTP_CODE"
+          echo "Odpowiedź: $HTTP_BODY"
+
+          if [ "$HTTP_CODE" -ne 202 ]; then
+            echo "❌ Błąd: Serwer API na VPS odrzucił żądanie (kod $HTTP_CODE)!"
+            exit 1
+          fi
+
+          echo "✅ Wdrożenie zostało pomyślnie zlecone do wykonania w tle na VPS."
