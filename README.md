@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 94
+**Łącznie modów:** 93
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -91,7 +91,6 @@
 | [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq) | `MouseTweaks-forge-mc1.20.1-2.25.1.jar` | `client` |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | `notenoughanimations-forge-1.12.7-mc1.20.1.jar` | `client` |
 | [ObsidianUI](https://modrinth.com/mod/E0L8mfJZ) | `ObsidianUI-forge-0.2.3+mc1.20.1.jar` | `client` |
-| [Oculus](https://www.curseforge.com/projects/581495) | `oculus-mc1.20.1-1.8.0.jar` | `both` |
 | [Placebo](https://modrinth.com/mod/tCkE8p2N) | `Placebo-1.20.1-8.6.3.jar` | `both` |
 | [Quartz Blocks to Quartz](https://www.curseforge.com/projects/1463211) | `quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar` | `both` |
 | [Quests Additions (Forge)](https://www.curseforge.com/projects/580129) | `questsadditions-1.4.7.jar` | `both` |
