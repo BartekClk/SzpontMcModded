@@ -1,0 +1,13 @@
+name = "Quartz Blocks to Quartz"
+filename = "quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49e7b12c2d57d75ac3a71de977429520f4fa1f10"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7629883
+project-id = 1463211

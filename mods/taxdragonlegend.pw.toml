@@ -1,0 +1,13 @@
+name = "Tax' Dragon Legend"
+filename = "TaxDragonLegend+M.1.20.1+ForM.3.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e9ab0bcc70b6e87a5f733b38b6b1e811cb50a755"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6317423
+project-id = 831897

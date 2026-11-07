@@ -5,8 +5,12 @@ file = ".github/workflows/discord-release.yml"
 hash = "4aeb2bc0c2fa0e9281bbbe5c3b9b557e4496184cd81f7a86f6c9a42e56a4736f"
 
 [[files]]
+file = ".github/workflows/update-modlist.yml"
+hash = "52b609bdd7b198df19c31ec81a0be44bf459244b7156e2ef831c562a002c91c5"
+
+[[files]]
 file = "README.md"
-hash = "2f9fb6ee1d697a8877607ebcf0965dce7002dc7de99aaa71d5c3c2d24c69e321"
+hash = "c061e57a9cc602c7ce5050b185ec4783c8e07b58d623486fcc74dc9cb8f31e84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
@@ -39,10 +43,6 @@ hash = "dc195098531ef804b9dc91f00167cb86b54b3bb5c3abae5d6f6b2e3fec7ca6e2"
 [[files]]
 file = "config/ftbquests/quests/chapters/07_artyleria_i_otherside.snbt"
 hash = "07096f66bc941e23104988dab40426d541e57adabe515ff44e31276068b9e8bf"
-
-[[files]]
-file = "generateQuests.py"
-hash = "64ba865fc927b5e386f28777ff3f62eb7546233ea8f4bb52891531d72a3d881e"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -82,6 +82,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "126db1f1ec01bbc4cf3393e087363e2fdbfe4a3face897ed27985b14a1a519a9"
+metafile = true
+
+[[files]]
+file = "mods/better-end-cities-vanilla.pw.toml"
+hash = "30370074e1c2c4121c9fd3e5bcc65f4640cffc7976d47ee21812572389a2ddc6"
 metafile = true
 
 [[files]]
@@ -170,6 +175,16 @@ hash = "8361c39dcf51e426d48631419c7adc4e06d2d13057d9a0ad552bcd420256f2d5"
 metafile = true
 
 [[files]]
+file = "mods/create-industry.pw.toml"
+hash = "04f84cbd5fd5408dd66d8bf48b6dffaee55baecfb84220e5dda82f43a36c3d85"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "ecbf9855b5d321b4feb6a5c57d281a0b9b3ba339afb6939d88a68f13a0b3f506"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "c13a9000148ee786906c815c6218fad32497e9b71853614d78a8ebff5077af76"
 metafile = true
@@ -180,8 +195,13 @@ hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
 metafile = true
 
 [[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "de446c59715a62446ce6347cc3f05ab781069ef301533a6207a83d898e4b142f"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
-hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
@@ -252,11 +272,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
-metafile = true
-
-[[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "2f59fb65f168de13e1de73f752027b53b148679d3dd19dc6e9450f5cba3cd166"
 metafile = true
 
 [[files]]
@@ -370,6 +385,11 @@ hash = "f0f5c308df4bb27f60b675220463446876dfdd7b85a096143259d1173ab69341"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "108750d474c87286996e8dbbce3a18ad277e7258c0d49094250fc33da34fb68b"
+metafile = true
+
+[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "b9eea39bcf3797fe6221c607070e0910e7425a555afadd60badde8c83932dcbc"
 metafile = true
@@ -377,6 +397,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "5f5ae83e022377bb87eaf4eef68adffb7958f682f74cd24427f303b6d2a123ce"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "8aeb29766334fc65d9c4899cd23d72cdeefc3f57d7cf4ef14fc8fa5597dce2cc"
 metafile = true
 
 [[files]]
@@ -407,6 +432,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "969078b157cd783f7c38ac33407abc4f532c244c973d52810d559f02be06db90"
+metafile = true
+
+[[files]]
+file = "mods/quartz-blocks-to-quartz.pw.toml"
+hash = "adc58c5ca2564e7907ae15d1240dec4d735c5420cc9d1840f0145c82a3a48fc3"
 metafile = true
 
 [[files]]
@@ -470,6 +500,11 @@ hash = "b3c68ce85c6cbdf37a00e39d18ea0f30ef7f69ee414151615adc2aa793661b81"
 metafile = true
 
 [[files]]
+file = "mods/taxdragonlegend.pw.toml"
+hash = "2ae8283c2846068978a327135e1642e4a6f05c20be44375bb4eb1a32efa1b86c"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "131c818cca79586fdca0535062a63581e7c438efd108be4403ab8faea92e6368"
 metafile = true
@@ -483,3 +518,11 @@ metafile = true
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a489b37b949921beffb24adb91d6f572c4ee82668b7dc15b8aaedd767476aad"
 metafile = true
+
+[[files]]
+file = "scripts/generateQuests.py"
+hash = "64ba865fc927b5e386f28777ff3f62eb7546233ea8f4bb52891531d72a3d881e"
+
+[[files]]
+file = "scripts/update_mods_md.py"
+hash = "86f86edf09f3e872894f4d7bc40cd0538e8cd568164acb8f0f6324566b2cc26f"
