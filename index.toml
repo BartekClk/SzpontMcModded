@@ -343,8 +343,8 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
-file = "mods/just-leveling.pw.toml"
-hash = "1b16ff9b465c969fa6156d9beba8bba224a577f9c8dbe2c99de4129d7e5b20bf"
+file = "mods/justleveling-fork.pw.toml"
+hash = "bb63a43eef91ab8fe447e7c4d869088613b0569f45ed199e64e8b7cd1649116a"
 metafile = true
 
 [[files]]
