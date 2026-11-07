@@ -10,7 +10,7 @@ hash = "52b609bdd7b198df19c31ec81a0be44bf459244b7156e2ef831c562a002c91c5"
 
 [[files]]
 file = "README.md"
-hash = "c061e57a9cc602c7ce5050b185ec4783c8e07b58d623486fcc74dc9cb8f31e84"
+hash = "f7517d436e4e12b380e1b208e3321dfd37741868f0e03fa378942fe9f3d00600"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
@@ -422,11 +422,6 @@ metafile = true
 [[files]]
 file = "mods/obsidianui.pw.toml"
 hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
-metafile = true
-
-[[files]]
-file = "mods/oculus.pw.toml"
-hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
 metafile = true
 
 [[files]]
