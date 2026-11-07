@@ -1,0 +1,35 @@
+name: Update Mod List
+
+on:
+  push:
+    paths:
+      - 'mods/**'
+      - '.github/workflows/update-modlist.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate updated README
+        run: python scripts/update_mods_md.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(mods): auto-update mod list in README [skip ci]"
+          file_pattern: "README.md"

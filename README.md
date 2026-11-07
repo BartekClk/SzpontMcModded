@@ -9,26 +9,8 @@
 
 ---
 
-## 🛠️ Filary Rozgrywki
-
-* 🚂 **Kolej Transkontynentalna i Ruchoma Mechanika:** Rozbudowana sieć połączeń kolejowych (*Create: Steam 'n' Rails*), automatyczne składy transportowe, semafory, fabryki andezytu oraz mechaniczne żurawie i wiertnice.
-* 🛢️ **Przemysł Naftowy i Energetyka:** Wydobycie ropy naftowej kiwonami (*Pumpjack*), rektyfikacja frakcyjna na olej napędowy i benzynę (*Diesel Generators*) oraz generowanie prądu FE (*Create Crafts & Additions*).
-* 💥 **Ciężka Artyleria i Wojna Oblężnicza:** Odlewanie żeliwnych luf w formach piaskowych, obróbka skrawaniem na tokarkach i budowa dział dalekosiężnych (*Create Big Cannons*).
-* 📦 **Zintegrowany Magazyn:** Automatyczna segregacja w kompresujących szufladach (*Storage Drawers*) spięta z centralnym terminalem bezprzewodowym (*Tom's Simple Storage*).
-* 📜 **Rozwój Postaci i Misje:** Dedykowana kampania technologiczna prowadząca przez ukryte mechaniki (*FTB Quests*) połączona z atrybutami RPG (*Just Leveling*).
-* 🌍 **Organiczny Świat i Realistyczna Akustyka:** Monumentalne łańcuchy górskie (*Tectonic*), przestrzenna fizyka dźwięku i pogłos w halach (*Sound Physics Remastered*) oraz płynne animacje mobów (*Fresh Animations*).
-
----
-
-## ⌨️ Niezbędnik Klawiszologii
-
-| Skrót | Mod / Funkcja | Do czego służy? |
-|---|---|---|
-| **`[W]`** *(Przytrzymaj)* | **Create Ponder** | Otwiera animowany podgląd 3D maszyny z instrukcją podłączenia napędu. |
-| **`[K]`** | **Just Leveling** | Drzewko atrybutów postaci (Mining, Strength, Building itp.). |
-| **`[V]`** | **Simple Voice Chat** | Ustawienia mikrofonu, głośności graczy i kanałów radiowych. |
-| **`[M]`** | **FTB Chunks** | Mapa świata, claimowanie działki (LPM) i chunkloading maszyn (Shift+LPM). |
-| **`[B]`** | **Traveler's Backpack** | Otwieranie założonego w slot Curios plecaka bez zdejmowania go na ziemię. |
+<!-- MODS_START -->
+<!-- MODS_END -->
 
 ---
 
