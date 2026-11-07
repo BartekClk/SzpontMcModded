@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 87
+**Łącznie modów:** 94
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -23,6 +23,7 @@
 | [Architectury API](https://www.curseforge.com/projects/419699) | `architectury-9.2.14-forge.jar` | `both` |
 | [Artifacts](https://modrinth.com/mod/P0Mu4wcQ) | `artifacts-forge-9.5.19.jar` | `both` |
 | [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv) | `bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar` | `both` |
+| [Better End Cities - Vanilla](https://www.curseforge.com/projects/959431) | `betterendcities-1.0.0-1.20.1.jar` | `both` |
 | [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | `bettervillage-forge-1.20.1-3.3.1-all.jar` | `both` |
 | [BetterF3](https://modrinth.com/mod/8shC1gFX) | `BetterF3-7.0.2-Forge-1.20.1.jar` | `client` |
 | [Canary](https://modrinth.com/mod/qa2H4BS9) | `canary-mc1.20.1-0.3.3.jar` | `both` |
@@ -40,9 +41,12 @@
 | [Create Encased](https://modrinth.com/mod/hSSqdyU1) | `Create Encased-1.20.1-1.8-ht2.jar` | `both` |
 | [Create: Enchantment Industry](https://modrinth.com/mod/JWGBpFUP) | `create-enchantment-industry-2.5.4b.jar` | `both` |
 | [Create Goggles (Create Plus)](https://www.curseforge.com/projects/377835) | `creategoggles-1.20.1-6.1.1-[FORGE].jar` | `both` |
+| [Create: The Factory Must Grow](https://www.curseforge.com/projects/693815) | `tfmg-1.0.2f.jar` | `both` |
+| [Create: New Age](https://modrinth.com/mod/FTeXqI9v) | `create-new-age-1.2.0+forge-mc1.20.1.jar` | `both` |
 | [Create: Steam 'n' Rails](https://modrinth.com/mod/ZzjhlDgM) | `Steam_Rails-1.7.3+forge-mc1.20.1.jar` | `both` |
 | [Create: Structures](https://modrinth.com/mod/IAnP4np7) | `create-structures-0.1.1-1.20.1-FORGE.jar` | `both` |
-| [Create](https://www.curseforge.com/projects/328085) | `create-1.20.1-6.0.8.jar` | `both` |
+| [Create Stuff 'N Additions](https://modrinth.com/mod/aq9qUUQG) | `create-stuff-additions1.20.1_v2.1.2.jar` | `both` |
+| [Create](https://modrinth.com/mod/LNytGWDc) | `create-1.20.1-6.0.8.jar` | `both` |
 | [Create Crafts & Additions](https://modrinth.com/mod/kU1G12Nn) | `createaddition-1.20.1-1.3.3.jar` | `both` |
 | [Curios API](https://modrinth.com/mod/vvuO3ImH) | `curios-forge-5.14.1+1.20.1.jar` | `both` |
 | [Deeper and Darker](https://modrinth.com/mod/fnAffV0n) | `deeperdarker-forge-1.20.1-1.3.3.jar` | `both` |
@@ -57,7 +61,6 @@
 | [ExtendedAE-Plus](https://modrinth.com/mod/xr109llC) | `extendedae_plus-1.6.4.jar` | `both` |
 | [FastSuite](https://modrinth.com/mod/roccmqou) | `FastSuite-1.20.1-5.1.2.jar` | `both` |
 | [FerriteCore](https://modrinth.com/mod/uXXizFIs) | `ferritecore-6.0.1-forge.jar` | `both` |
-| [First-person Model](https://modrinth.com/mod/H5XMjpHi) | `firstperson-forge-2.7.3-mc1.20.1.jar` | `client` |
 | [FTB Chunks (NeoForge)](https://www.curseforge.com/projects/314906) | `ftb-chunks-forge-2001.3.8.jar` | `both` |
 | [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/projects/410811) | `ftb-essentials-forge-2001.2.4.jar` | `both` |
 | [FTB Library (NeoForge)](https://www.curseforge.com/projects/404465) | `ftb-library-forge-2001.2.13.jar` | `both` |
@@ -80,14 +83,17 @@
 | [Lootr](https://modrinth.com/mod/EltpO5cN) | `lootr-forge-1.20-0.7.35.94.jar` | `both` |
 | [Macaw's Bridges](https://modrinth.com/mod/GURcjz8O) | `mcw-bridges-3.1.2-mc1.20.1forge.jar` | `both` |
 | [Memory Leak Fix](https://modrinth.com/mod/NRjRiSSD) | `memoryleakfix-forge-1.17+-1.1.5.jar` | `client` |
+| [MES - Moog's End Structures](https://modrinth.com/mod/r4PuRGfV) | `MoogsEndStructures-universal-1.20-2.1.0.jar` | `both` |
 | [MezzConfig](https://www.curseforge.com/projects/1689768) | `mezz_config-1.20.1-forge-0.6.10.jar` | `both` |
 | [ModernFix](https://modrinth.com/mod/nmDcB62a) | `modernfix-forge-5.27.91+mc1.20.1.jar` | `both` |
+| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/1oUDhxuy) | `MoogsStructureLib-forge-1.20-3.4.2.jar` | `both` |
 | [Moonlight Lib](https://modrinth.com/mod/twkfQtEc) | `moonlight-1.20-2.16.38B-forge.jar` | `both` |
 | [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq) | `MouseTweaks-forge-mc1.20.1-2.25.1.jar` | `client` |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | `notenoughanimations-forge-1.12.7-mc1.20.1.jar` | `client` |
 | [ObsidianUI](https://modrinth.com/mod/E0L8mfJZ) | `ObsidianUI-forge-0.2.3+mc1.20.1.jar` | `client` |
 | [Oculus](https://www.curseforge.com/projects/581495) | `oculus-mc1.20.1-1.8.0.jar` | `both` |
 | [Placebo](https://modrinth.com/mod/tCkE8p2N) | `Placebo-1.20.1-8.6.3.jar` | `both` |
+| [Quartz Blocks to Quartz](https://www.curseforge.com/projects/1463211) | `quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar` | `both` |
 | [Quests Additions (Forge)](https://www.curseforge.com/projects/580129) | `questsadditions-1.4.7.jar` | `both` |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/B3pb093D) | `ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar` | `both` |
 | [RyoamicLights](https://modrinth.com/mod/reCfnRvJ) | `RyoamicLights-forge-0.2.3+mc1.20.1.jar` | `client` |
@@ -100,6 +106,7 @@
 | [Staaaaaaaaaaaack (Stxck)](https://modrinth.com/mod/myL7fuqp) | `staaaaaaaaaaaack-forge-1.20.1-1.5-71.jar` | `both` |
 | [Storage Drawers](https://modrinth.com/mod/guitPqEi) | `StorageDrawers-forge-1.20.1-12.15.1.jar` | `both` |
 | [Supplementaries](https://modrinth.com/mod/fFEIiSDQ) | `supplementaries-1.20-3.1.44-forge.jar` | `both` |
+| [Tax' Dragon Legend](https://www.curseforge.com/projects/831897) | `TaxDragonLegend+M.1.20.1+ForM.3.0.3.jar` | `both` |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/XZNI4Cpy) | `toms_storage-1.20-1.7.1.jar` | `both` |
 | [Tom's Trading Network](https://modrinth.com/mod/x5iQ3NM5) | `toms_trading_network-1.20-0.3.1.jar` | `both` |
 <!-- MODS_END -->
