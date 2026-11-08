@@ -77,7 +77,7 @@
 | [Just Enough Items (JEI)](https://modrinth.com/mod/u6dRKJwZ) | `jei-1.20.1-forge-15.74.0.234.jar` | `both` |
 | [Just Enough Professions (JEP)](https://modrinth.com/mod/kB56GtWA) | `JustEnoughProfessions-forge-1.20.1-3.0.1.jar` | `both` |
 | [Just Enough Resources (JER)](https://modrinth.com/mod/uEfK2CXF) | `JustEnoughResources-1.20.1-1.4.0.247.jar` | `client` |
-| [Just Leveling](https://modrinth.com/mod/EF21YRSP) | `justleveling-forge-1.20.x-v1.7.jar` | `both` |
+| [JustLeveling Fork](https://modrinth.com/mod/LqrwcaUD) | `justlevelingfork-forge-1.20.1-1.2.8.jar` | `both` |
 | [Krypton Reno](https://modrinth.com/mod/JkxWVYwU) | `Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar` | `both` |
 | [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | `libraryferret-forge-1.20.1-4.0.0.jar` | `both` |
 | [Lootr](https://modrinth.com/mod/EltpO5cN) | `lootr-forge-1.20-0.7.35.94.jar` | `both` |
