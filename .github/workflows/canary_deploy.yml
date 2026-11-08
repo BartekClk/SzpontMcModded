@@ -135,7 +135,7 @@ jobs:
     name: Call VPS Webhook API
     needs: canary-test
     runs-on: ubuntu-latest
-    if: false
+    if: true
 
     steps:
       - name: Send Deployment Request to VPS
