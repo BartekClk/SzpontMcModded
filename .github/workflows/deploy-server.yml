@@ -1,0 +1,17 @@
+name: Trigger MCS-MS Server Update
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  trigger-mcsms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send update trigger to MCS-MS daemon
+        run: |
+          curl --fail-with-body -sS -X POST "${{ secrets.MCSMS_WEBHOOK_URL }}" \
+            -H "Authorization: Bearer ${{ secrets.MCSMS_WEBHOOK_SECRET }}" \
+            -H "Content-Type: application/json" \
+            -d '{"action": "published"}'
