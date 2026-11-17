@@ -192,7 +192,7 @@
 			description: [
 				"Mod &6Create: Enchantment Industry&r całkowicie rewolucjonizuje zaklinanie:",
 				"",
-				"1. &aDisenchanter:&r Stań na nim osobiście (wypije z Ciebie EXP jako zieloną ciecz!) lub rzuć na niego niepotrzebne zaklęte przedmioty z mobów / rzuć Bryłki Doświadczenia (&eNugget of Experience&r). Wyciągnij płynny EXP rurą z boku.",
+				"1. &aBlaze enchanter:&r Stań na nim osobiście (wypije z Ciebie EXP jako zieloną ciecz!) lub rzuć na niego niepotrzebne zaklęte przedmioty z mobów / rzuć Bryłki Doświadczenia (&eNugget of Experience&r). Wyciągnij płynny EXP rurą z boku.",
 				"2. &bPrinter (Kopiarka Książek):&r Kliknij na niego od spodu dobrą zaklętą książką (np. Mending), doprowadź od góry rurą &aPłynny EXP&r i przepuszczaj pod nim na Depocie zwykłe czyste książki – skopiuje zaklęcie 1:1!",
 				"3. &6Blaze Enchanter + Hyper-Enchanting:&r Nakarm go &eBlaze Cake&r (niebieski ogień!), a zaklnie przedmioty o &l+1 poziom wyżej niż limit Vanilli&r (np. Sharpness VI, Efficiency VI, Fortune IV)!"
 			]
@@ -250,7 +250,7 @@
 				{
 					count: 1L
 					id: "0000000000000883"
-					item: "create_enchantment_industry:disenchanter"
+					item: "create_enchantment_industry:blaze_enchanter"
 					type: "item"
 				}
 				{
@@ -262,7 +262,7 @@
 				{
 					count: 1L
 					id: "0000000000000885"
-					item: "create_enchantment_industry:enchanting_guide"
+					item: "create_enchantment_industry:blaze_forger"
 					type: "item"
 				}
 			]

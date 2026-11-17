@@ -121,12 +121,6 @@
 					item: "createbigcannons:cannon_mount"
 					type: "item"
 				}
-				{
-					count: 1L
-					id: "0000000000000929"
-					item: "createbigcannons:yaw_controller"
-					type: "item"
-				}
 			]
 			title: "Tokarka Lufowa i Łoże Działa"
 			x: 4.0d

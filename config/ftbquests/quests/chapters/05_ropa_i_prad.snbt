@@ -145,7 +145,7 @@
 		{
 			dependencies: ["00000000000008C9"]
 			description: [
-				"Doprowadź rurą paliwo do &6Diesel Engine&r lub połącz w rząd kilka &6Modular Diesel Engine&r, aby uzyskać ogromną ilość SU na bardzo małej przestrzeni!"
+				"Doprowadź rurą paliwo do &6Diesel Engine&r lub połącz w rząd kilka &6Large Diesel Engine&r, aby uzyskać ogromną ilość SU na bardzo małej przestrzeni!"
 			]
 			id: "00000000000008CE"
 			rewards: [
@@ -174,7 +174,7 @@
 				{
 					count: 2L
 					id: "00000000000008D0"
-					item: "createdieselgenerators:modular_diesel_engine"
+					item: "createdieselgenerators:large_diesel_engine"
 					type: "item"
 				}
 				{
