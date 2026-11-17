@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 93
+**Łącznie modów:** 94
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -32,6 +32,7 @@
 | [Clumps](https://modrinth.com/mod/Wnxd13zP) | `Clumps-forge-1.20.1-12.0.0.4.jar` | `both` |
 | [Configured](https://www.curseforge.com/projects/457570) | `configured-forge-1.20.1-2.2.3.jar` | `client` |
 | [Create: Copycats+](https://modrinth.com/mod/UT2M39wf) | `copycats-3.0.10+mc.1.20.1-forge.jar` | `both` |
+| [CraftTweaker](https://www.curseforge.com/projects/239197) | `CraftTweaker-forge-1.20.1-14.0.60.jar` | `both` |
 | [Create: Addon Startup Fix](https://www.curseforge.com/projects/1712365) | `Create-Addon-Startup-Fix-1.20.1-1.0.0.jar` | `both` |
 | [Create Big Cannons](https://modrinth.com/mod/GWp4jCJj) | `createbigcannons-5.11.4-mc.1.20.1-forge.jar` | `both` |
 | [Create: Connected](https://modrinth.com/mod/Vg5TIO6d) | `create_connected-1.2.3-mc1.20.1-all.jar` | `both` |
