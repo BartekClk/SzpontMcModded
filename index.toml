@@ -118,6 +118,11 @@ hash = "bc4c7fcbe7ac207a8cf408e754a02ffb61cc106a5445a6987a0924b45ce8b53b"
 metafile = true
 
 [[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "3a1501153c752f350b079f0676ba4b2b610187d62f30f5910ef8d025a4af7de6"
+metafile = true
+
+[[files]]
 file = "mods/create-addon-startup-fix.pw.toml"
 hash = "ff3fe74d9ee10a87c4d15afa8a5923d458662d73fb61fbfd3f2ea3b3f6bc6e6c"
 metafile = true
