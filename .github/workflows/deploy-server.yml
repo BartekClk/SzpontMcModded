@@ -11,8 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send update trigger to MCS-MS daemon
+        env:
+          WEBHOOK_URL: ${{ secrets.MCSMS_WEBHOOK_SZPONTMC_URL }}
+          WEBHOOK_SECRET: ${{ secrets.MCSMS_WEBHOOK_SZPONTMC_SECRET }}
         run: |
-          curl --fail-with-body -sS -X POST "${{ secrets.MCSMS_WEBHOOK_SZPONTMC_URL }}" \
-            -H "Authorization: Bearer ${{ secrets.MCSMS_WEBHOOK_SZPONTMC_SECRET }}" \
+          if [ -z "$WEBHOOK_URL" ] || [ -z "$WEBHOOK_SECRET" ]; then
+            echo "Error: MCSMS_WEBHOOK_SZPONTMC_URL or MCSMS_WEBHOOK_SZPONTMC_SECRET is missing in Repository secrets."
+            exit 1
+          fi
+
+          curl --fail-with-body -sS -X POST "$WEBHOOK_URL" \
+            -H "Authorization: Bearer $WEBHOOK_SECRET" \
             -H "Content-Type: application/json" \
             -d '{"action": "published"}'
