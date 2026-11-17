@@ -14,7 +14,7 @@ hash = "689cf0a3cf03764f483e8552e65912f312913ae8d9c7f90aec4cee459af57142"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_hydraulika_i_exp.snbt"
-hash = "b88ee53926dcda91078f1f154b5d2ba5a2fea3aa353dc891f0d9d3150ffe69ce"
+hash = "667238f011c3c0300ebc2844307c23c14170c5632536edba859eee94a32422f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_mosiadz_i_kolej.snbt"
@@ -22,7 +22,7 @@ hash = "e32a41f93278fe62221123fae736b38f3d0f2eb8e2bea3769dd60ac4faeb5f79"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_ropa_i_prad.snbt"
-hash = "7864b2581d1996f91b430d171128dd82aafc1ffc6734a1493ecff3e63592cb5c"
+hash = "9ae65e50edb60d5342ea3fc44cab0c12b699a5844ace9b131872403103a043b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_cyfrowa_siec_ae2.snbt"
@@ -30,7 +30,7 @@ hash = "dc195098531ef804b9dc91f00167cb86b54b3bb5c3abae5d6f6b2e3fec7ca6e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_artyleria_i_otherside.snbt"
-hash = "07096f66bc941e23104988dab40426d541e57adabe515ff44e31276068b9e8bf"
+hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -506,3 +506,11 @@ metafile = true
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a489b37b949921beffb24adb91d6f572c4ee82668b7dc15b8aaedd767476aad"
 metafile = true
+
+[[files]]
+file = "scripts/create_recipes.zs"
+hash = "6782d54da1099d13ded4e4ccd2e29308e23e85bbae252c7c6317a98ed11ab506"
+
+[[files]]
+file = "scripts/unify_steel.zs"
+hash = "81c663de384316e339cf62aa96a577ab78ee301d5a4ced74d9701d9ed802b1b6"
