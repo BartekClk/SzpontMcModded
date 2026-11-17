@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Send update trigger to MCS-MS daemon
         run: |
-          curl --fail-with-body -sS -X POST "${{ secrets.MCSMS_WEBHOOK_URL }}" \
-            -H "Authorization: Bearer ${{ secrets.MCSMS_WEBHOOK_SECRET }}" \
+          curl --fail-with-body -sS -X POST "${{ secrets.MCSMS_WEBHOOK_SZPONTMC_URL }}" \
+            -H "Authorization: Bearer ${{ secrets.MCSMS_WEBHOOK_SZPONTMC_SECRET }}" \
             -H "Content-Type: application/json" \
             -d '{"action": "published"}'
