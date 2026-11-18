@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 96
+**Łącznie modów:** 98
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -93,7 +93,9 @@
 | [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq) | `MouseTweaks-forge-mc1.20.1-2.25.1.jar` | `client` |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | `notenoughanimations-forge-1.12.7-mc1.20.1.jar` | `client` |
 | [ObsidianUI](https://modrinth.com/mod/E0L8mfJZ) | `ObsidianUI-forge-0.2.3+mc1.20.1.jar` | `client` |
+| [Overflowing Bars](https://www.curseforge.com/projects/852662) | `OverflowingBars-v8.0.1-1.20.1-Forge.jar` | `both` |
 | [Placebo](https://modrinth.com/mod/tCkE8p2N) | `Placebo-1.20.1-8.6.3.jar` | `both` |
+| [Puzzles Lib](https://www.curseforge.com/projects/495476) | `PuzzlesLib-v8.1.36-1.20.1-Forge.jar` | `both` |
 | [Quartz Blocks to Quartz](https://www.curseforge.com/projects/1463211) | `quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar` | `both` |
 | [Quests Additions (Forge)](https://www.curseforge.com/projects/580129) | `questsadditions-1.4.7.jar` | `both` |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/B3pb093D) | `ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar` | `both` |
