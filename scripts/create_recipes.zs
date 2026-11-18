@@ -26,3 +26,9 @@
         }
     ]
 });
+
+// // Usunięcie obu receptur (poziomej i pionowej) dla Brass Pipe i przywrócenie tylko poziomej
+// craftingTable.remove(<item:tfmg:brass_pipe>);
+// craftingTable.addShaped("brass_pipe_horizontal_only", <item:tfmg:brass_pipe> * 8, [
+//     [<item:create:brass_sheet>, <item:create:brass_ingot>, <item:create:brass_sheet>]
+// ]);
