@@ -35,6 +35,22 @@
 	 "deeperdarker:warden_pickaxe#building:28", 
 	 "deeperdarker:warden_axe#strength:28;building:28", 
 	 "deeperdarker:warden_sword#strength:28",
+	 # Copper, Create stuff and additions Armor And Tools
+	 "create_sa:copper_helmet#defense:4", 
+	 "create_sa:copper_chestplate#defense:4", 
+	 "create_sa:copper_leggings#defense:4", 
+	 "create_sa:copper_boots#defense:4",
+	 "create_sa:copper_hoe#building:4", 
+	 "create_sa:copper_shovel#building:4", 
+	 "create_sa:copper_pickaxe#building:4", 
+	 "create_sa:copper_axe#strength:4;building:4", 
+	 "create_sa:copper_sword#strength:4",
+	 # Backpacks
+	 "sophisticatedbackpacks:copper_backpack#constitution:4",
+	 "sophisticatedbackpacks:gold_backpack#constitution:6",  
+	 "sophisticatedbackpacks:iron_backpack#constitution:8", 
+	 "sophisticatedbackpacks:diamond_backpack#constitution:16", 
+	 "sophisticatedbackpacks:netherite_backpack#constitution:24", 
 	 ]
 
 [passives]

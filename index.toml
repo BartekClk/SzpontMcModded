@@ -38,7 +38,7 @@ hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 
 [[files]]
 file = "config/just_leveling-common.toml"
-hash = "4436b1bf07149e5596e7744e5dcbefcfda389da81f03907472b684bdc2197906"
+hash = "c7c14f1fb7cd9018f4df845ff87bafbcabc532d73d8c2d8a271a36b756b31d47"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -599,6 +599,10 @@ metafile = true
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a489b37b949921beffb24adb91d6f572c4ee82668b7dc15b8aaedd767476aad"
 metafile = true
+
+[[files]]
+file = "scripts/backpacks.zs"
+hash = "e02a97f860d231866c2aacdc46e340edb4467e4d752f1fcf2ed1fbc142534c05"
 
 [[files]]
 file = "scripts/create_recipes.zs"
