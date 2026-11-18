@@ -72,7 +72,12 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "2de33e7d757cfa1108b05247cb59f6db2f08000af824da328322d78cdb7c4c4d"
+hash = "9224b29b7fc388a0a030f8a6e87b26b24ec73dbc853bcdd531a144ed8e59ccea"
+metafile = true
+
+[[files]]
+file = "mods/athena.pw.toml"
+hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
 
 [[files]]
@@ -101,13 +106,18 @@ hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "b23d8e68147bc926e557dd666df3e78ec99e4b4ef63920163aabc6f0cbaec3c0"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
@@ -123,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "bc4c7fcbe7ac207a8cf408e754a02ffb61cc106a5445a6987a0924b45ce8b53b"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
@@ -201,6 +216,11 @@ hash = "de446c59715a62446ce6347cc3f05ab781069ef301533a6207a83d898e4b142f"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "45bdcae9918c812cfc41fb0541676cfc723e07a18085b796b111e0bbaa572482"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
@@ -212,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+hash = "55d77d596c2d805f28b47ea53725ccaa220d2857177cad3909e48d8c12b2a2cb"
 metafile = true
 
 [[files]]
@@ -253,6 +273,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "e17e6114a5d7ba9b8821239e4e7fa5788dd0794a336a83576883c85f5a474463"
+metafile = true
+
+[[files]]
+file = "mods/etched.pw.toml"
+hash = "c9f73e2b93b64fb0c44fbbde6245a5d5934143d6c4b9cc9829e3ba62c02ead4e"
 metafile = true
 
 [[files]]
@@ -366,6 +391,16 @@ hash = "1709eb2e8a497e9257c16d3aaacc1725cfc9689881e48431902a139124b04a8b"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "d3936a59df6e06c3a5857a7de51023b3a824ee9b9d37d00fca809e9f18ce57ec"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
+metafile = true
+
+[[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "fda62419ea0d286061260ceb7dc1e27ea6ebdfc1ab6a01a588c5e9e2243a6200"
 metafile = true
@@ -386,8 +421,18 @@ hash = "0261f8fb3b0880b572044ff084edceecd2c91f39ee71c477198313ac2a253f4d"
 metafile = true
 
 [[files]]
+file = "mods/magnum-torch.pw.toml"
+hash = "5f6768157929bccb85b4b561fb4e16c99018ad93ce3f53b945ab9b37307c3665"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "f0f5c308df4bb27f60b675220463446876dfdd7b85a096143259d1173ab69341"
+metafile = true
+
+[[files]]
+file = "mods/merged-artifacts.pw.toml"
+hash = "b39a7cc6a44d8ddd2dff554d4a8c91afbd5c5e91c66793d7b614db9443cc3b79"
 metafile = true
 
 [[files]]
@@ -456,6 +501,11 @@ hash = "d9e13a1c9bb74d5b456ffd7541627f5cf700a5949c3994c2a6673df7046bfb27"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
+metafile = true
+
+[[files]]
 file = "mods/rpl.pw.toml"
 hash = "93128d85ae0b3be9c8248b09f3a63ed88c746568480cc7e9a8e2a9b4bd13477c"
 metafile = true
@@ -506,6 +556,16 @@ hash = "7d8f3a08fd4332475ce3930c7fd775c6cfc044ef8c81b8368fbd7bd19ead2012"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "ed38e540e2cb42ae88c45588884bd08762850151a0df3b7a2d1982eb921758be"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "b3c68ce85c6cbdf37a00e39d18ea0f30ef7f69ee414151615adc2aa793661b81"
 metafile = true
@@ -528,6 +588,11 @@ metafile = true
 [[files]]
 file = "mods/tool-stats.pw.toml"
 hash = "b64eccbd87fdcc8505d7a1d50e69c5da1eaa71b1fc49b33c19b484f933e6bbe5"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "0d1be94a8a32cb70e361d4af6d7c6f2fc86cfbafbf7bd9ed402f6b178067890d"
 metafile = true
 
 [[files]]

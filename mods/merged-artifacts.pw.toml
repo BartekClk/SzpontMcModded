@@ -1,0 +1,13 @@
+name = "Merged Artifacts"
+filename = "mergedartifacts-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f0b652e6363797678d1cea030ffe6375bb4849bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9163812
+project-id = 1743284
