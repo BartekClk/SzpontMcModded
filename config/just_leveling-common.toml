@@ -46,9 +46,9 @@
 	 "create_sa:copper_axe#strength:4;building:4", 
 	 "create_sa:copper_sword#strength:4",
 	 # Backpacks
-	 "sophisticatedbackpacks:copper_backpack#constitution:4",
-	 "sophisticatedbackpacks:gold_backpack#constitution:6",  
+	 "sophisticatedbackpacks:copper_backpack#constitution:4",  
 	 "sophisticatedbackpacks:iron_backpack#constitution:8", 
+	 "sophisticatedbackpacks:gold_backpack#constitution:12",
 	 "sophisticatedbackpacks:diamond_backpack#constitution:16", 
 	 "sophisticatedbackpacks:netherite_backpack#constitution:24", 
 	 ]

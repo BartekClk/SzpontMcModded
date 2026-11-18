@@ -38,7 +38,7 @@ hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 
 [[files]]
 file = "config/just_leveling-common.toml"
-hash = "c7c14f1fb7cd9018f4df845ff87bafbcabc532d73d8c2d8a271a36b756b31d47"
+hash = "626424a80695f044de1e7d11478b52f73d009fefda069e1bcc792c3ae39a1383"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
