@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 94
+**Łącznie modów:** 93
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -26,7 +26,6 @@
 | [Better End Cities - Vanilla](https://www.curseforge.com/projects/959431) | `betterendcities-1.0.0-1.20.1.jar` | `both` |
 | [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | `bettervillage-forge-1.20.1-3.3.1-all.jar` | `both` |
 | [BetterF3](https://modrinth.com/mod/8shC1gFX) | `BetterF3-7.0.2-Forge-1.20.1.jar` | `client` |
-| [Canary](https://modrinth.com/mod/qa2H4BS9) | `canary-mc1.20.1-0.3.3.jar` | `both` |
 | [Chunky](https://modrinth.com/mod/fALzjamp) | `Chunky-1.3.146.jar` | `server` |
 | [Cloth Config API](https://modrinth.com/mod/9s6osm5g) | `cloth-config-11.1.136-forge.jar` | `both` |
 | [Clumps](https://modrinth.com/mod/Wnxd13zP) | `Clumps-forge-1.20.1-12.0.0.4.jar` | `both` |
