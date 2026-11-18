@@ -431,8 +431,18 @@ hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
 metafile = true
 
 [[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "460172a12bf51c500547b3b961785d8e036ce5e6f0318d6d20dad8d69deeae1b"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "969078b157cd783f7c38ac33407abc4f532c244c973d52810d559f02be06db90"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "940024d6bd348d64bccb44b4af0aca29d375f4842728e8394982754edd0b68d7"
 metafile = true
 
 [[files]]
