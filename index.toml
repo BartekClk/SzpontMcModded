@@ -509,11 +509,11 @@ metafile = true
 
 [[files]]
 file = "scripts/create_recipes.zs"
-hash = "46a0f76894ffcad59f90c6e6762793802850e9ab688596a3a8e067c61b7a12e8"
+hash = "17f1caa342bd5d69c91f7b90847af86dc61b2d4ca1119420c9e333c5b022615b"
 
 [[files]]
 file = "scripts/dragon_smithing.zs"
-hash = "8886c780195065bfa7c9b13d3d5c6a4f84c2909a97ff23303e2ad2505a7ae522"
+hash = "3d2e3104d234d7a4d6263d625e04a5e539491590cd24a1bc95eb0788734004a8"
 
 [[files]]
 file = "scripts/unify_steel.zs"
@@ -521,4 +521,4 @@ hash = "ab55d26cfc49331687f2175d21084859fdc33e8b0b3381472e73ac2b76c754e1"
 
 [[files]]
 file = "scripts/wood_shortcuts.zs"
-hash = "170eb41a61ea894629f9f88c8ed00455fdb1fa0461f17ce5ebc7cdb004b8fce8"
+hash = "8b72cd3a1ac55f35bfcef8ff7158aca6b1fb4598b91336a02570864b5908caf5"
