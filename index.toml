@@ -333,6 +333,11 @@ hash = "b38d43feb83d6b23059e2eab0d0fc04378564c538817d1e73339d32e5937bca9"
 metafile = true
 
 [[files]]
+file = "mods/jlfix.pw.toml"
+hash = "75a27c8472688fdc2f683221ac32234c3049b121ef9da5081fede8330bcc06d4"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "051e68cdc04c210afa273cda7e109bea1f08380451593be022db86e6301dff36"
 metafile = true
@@ -343,8 +348,8 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
-file = "mods/justleveling-fork.pw.toml"
-hash = "42196e8a0e3bad3eda4597416a7a0c8495f05713dd01391625d2a0a16a0af3f8"
+file = "mods/just-leveling.pw.toml"
+hash = "1709eb2e8a497e9257c16d3aaacc1725cfc9689881e48431902a139124b04a8b"
 metafile = true
 
 [[files]]
