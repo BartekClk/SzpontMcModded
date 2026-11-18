@@ -33,6 +33,10 @@ file = "config/ftbquests/quests/chapters/07_artyleria_i_otherside.snbt"
 hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 
 [[files]]
+file = "config/just_leveling-common.toml"
+hash = "fdf4b78b6ebb0fe3f5a20464b36a07302e1ce726f5c9e189ecf815567f9fb4c9"
+
+[[files]]
 file = "mods/advancedae.pw.toml"
 hash = "db568fdd5a09a74465ad321522723e143ead4cb6f1c03cd6ce3a5f8acba447e4"
 metafile = true
