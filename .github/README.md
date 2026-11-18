@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 98
+**Łącznie modów:** 111
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -21,17 +21,20 @@
 | [AppleSkin](https://modrinth.com/mod/EsAfCjCV) | `appleskin-forge-mc1.20.1-2.5.1.jar` | `both` |
 | [Applied Energistics 2](https://www.curseforge.com/projects/223794) | `appliedenergistics2-forge-15.4.12.jar` | `both` |
 | [Architectury API](https://www.curseforge.com/projects/419699) | `architectury-9.2.14-forge.jar` | `both` |
-| [Artifacts](https://modrinth.com/mod/P0Mu4wcQ) | `artifacts-forge-9.5.19.jar` | `both` |
+| [Artifacts](https://www.curseforge.com/projects/312353) | `artifacts-forge-9.5.19.jar` | `both` |
+| [Athena](https://www.curseforge.com/projects/841890) | `athena-forge-1.20.1-3.1.2.jar` | `both` |
 | [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv) | `bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar` | `both` |
 | [Better End Cities - Vanilla](https://www.curseforge.com/projects/959431) | `betterendcities-1.0.0-1.20.1.jar` | `both` |
 | [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | `bettervillage-forge-1.20.1-3.3.1-all.jar` | `both` |
 | [BetterF3](https://modrinth.com/mod/8shC1gFX) | `BetterF3-7.0.2-Forge-1.20.1.jar` | `client` |
 | [Bookshelf](https://www.curseforge.com/projects/228525) | `Bookshelf-Forge-1.20.1-20.2.15.jar` | `both` |
+| [Chipped](https://www.curseforge.com/projects/456956) | `chipped-forge-1.20.1-3.0.7.jar` | `both` |
 | [Chunky](https://modrinth.com/mod/fALzjamp) | `Chunky-1.3.146.jar` | `server` |
-| [Cloth Config API](https://modrinth.com/mod/9s6osm5g) | `cloth-config-11.1.136-forge.jar` | `both` |
+| [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/projects/348521) | `cloth-config-11.1.136-forge.jar` | `both` |
 | [Clumps](https://modrinth.com/mod/Wnxd13zP) | `Clumps-forge-1.20.1-12.0.0.4.jar` | `both` |
 | [Configured](https://www.curseforge.com/projects/457570) | `configured-forge-1.20.1-2.2.3.jar` | `client` |
 | [Create: Copycats+](https://modrinth.com/mod/UT2M39wf) | `copycats-3.0.10+mc.1.20.1-forge.jar` | `both` |
+| [Cosmetic Armor Reworked](https://www.curseforge.com/projects/237307) | `cosmeticarmorreworked-1.20.1-v1a.jar` | `both` |
 | [CraftTweaker](https://www.curseforge.com/projects/239197) | `CraftTweaker-forge-1.20.1-14.0.60.jar` | `both` |
 | [Create: Addon Startup Fix](https://www.curseforge.com/projects/1712365) | `Create-Addon-Startup-Fix-1.20.1-1.0.0.jar` | `both` |
 | [Create Big Cannons](https://modrinth.com/mod/GWp4jCJj) | `createbigcannons-5.11.4-mc.1.20.1-forge.jar` | `both` |
@@ -47,9 +50,10 @@
 | [Create: Steam 'n' Rails](https://modrinth.com/mod/ZzjhlDgM) | `Steam_Rails-1.7.3+forge-mc1.20.1.jar` | `both` |
 | [Create: Structures](https://modrinth.com/mod/IAnP4np7) | `create-structures-0.1.1-1.20.1-FORGE.jar` | `both` |
 | [Create Stuff 'N Additions](https://modrinth.com/mod/aq9qUUQG) | `create-stuff-additions1.20.1_v2.1.2.jar` | `both` |
+| [Create: Ultimate Factory](https://www.curseforge.com/projects/978125) | `create_ultimate_factory-2.2.4-forge-1.20.1.jar` | `both` |
 | [Create](https://modrinth.com/mod/LNytGWDc) | `create-1.20.1-6.0.8.jar` | `both` |
 | [Create Crafts & Additions](https://modrinth.com/mod/kU1G12Nn) | `createaddition-1.20.1-1.3.3.jar` | `both` |
-| [Curios API](https://modrinth.com/mod/vvuO3ImH) | `curios-forge-5.14.1+1.20.1.jar` | `both` |
+| [Curios API](https://www.curseforge.com/projects/309927) | `curios-forge-5.14.1+1.20.1.jar` | `both` |
 | [Deeper and Darker](https://modrinth.com/mod/fnAffV0n) | `deeperdarker-forge-1.20.1-1.3.3.jar` | `both` |
 | [Distant Horizons](https://modrinth.com/mod/uCdwusMi) | `DistantHorizons-3.3.3-1.20.1-fabric-forge.jar` | `client` |
 | [Easy Piglins](https://modrinth.com/mod/l6n94pax) | `easy-piglins-forge-1.20.1-1.1.0.jar` | `both` |
@@ -58,6 +62,7 @@
 | [[EMF] Entity Model Features](https://modrinth.com/mod/4I1XuqiY) | `entity_model_features-3.3.12-1.20.1-forge.jar` | `client` |
 | [Entity Culling](https://modrinth.com/mod/NNAgCjsB) | `entityculling-forge-1.11.3-mc1.20.1.jar` | `client` |
 | [[ETF] Entity Texture Features](https://modrinth.com/mod/BVzZfTc1) | `entity_texture_features-7.2.7-1.20.1-forge.jar` | `client` |
+| [Etched](https://www.curseforge.com/projects/491890) | `etched-3.0.4.jar` | `both` |
 | [ExtendedAE](https://www.curseforge.com/projects/892005) | `ExtendedAE-1.20-1.4.22-forge.jar` | `both` |
 | [ExtendedAE-Plus](https://modrinth.com/mod/xr109llC) | `extendedae_plus-1.6.4.jar` | `both` |
 | [FastSuite](https://modrinth.com/mod/roccmqou) | `FastSuite-1.20.1-5.1.2.jar` | `both` |
@@ -80,11 +85,15 @@
 | [Just Enough Professions (JEP)](https://modrinth.com/mod/kB56GtWA) | `JustEnoughProfessions-forge-1.20.1-3.0.1.jar` | `both` |
 | [Just Enough Resources (JER)](https://modrinth.com/mod/uEfK2CXF) | `JustEnoughResources-1.20.1-1.4.0.247.jar` | `client` |
 | [Just Leveling [Forge]](https://www.curseforge.com/projects/923753) | `justleveling-forge-1.20.x-v1.7.jar` | `both` |
+| [Just Zoom](https://modrinth.com/mod/iAiqcykM) | `justzoom_forge_3.1.0_MC_1.20.1.jar` | `client` |
+| [Konkrete](https://modrinth.com/mod/J81TRJWm) | `konkrete_forge_1.8.0_MC_1.20-1.20.1.jar` | `both` |
 | [Krypton Reno](https://modrinth.com/mod/JkxWVYwU) | `Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar` | `both` |
 | [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | `libraryferret-forge-1.20.1-4.0.0.jar` | `both` |
 | [Lootr](https://modrinth.com/mod/EltpO5cN) | `lootr-forge-1.20-0.7.35.94.jar` | `both` |
 | [Macaw's Bridges](https://modrinth.com/mod/GURcjz8O) | `mcw-bridges-3.1.2-mc1.20.1forge.jar` | `both` |
+| [Magnum Torch](https://www.curseforge.com/projects/593981) | `MagnumTorch-v8.0.2-1.20.1-Forge.jar` | `both` |
 | [Memory Leak Fix](https://modrinth.com/mod/NRjRiSSD) | `memoryleakfix-forge-1.17+-1.1.5.jar` | `client` |
+| [Merged Artifacts](https://www.curseforge.com/projects/1743284) | `mergedartifacts-0.0.1.jar` | `both` |
 | [MES - Moog's End Structures](https://modrinth.com/mod/r4PuRGfV) | `MoogsEndStructures-universal-1.20-2.1.0.jar` | `both` |
 | [MezzConfig](https://www.curseforge.com/projects/1689768) | `mezz_config-1.20.1-forge-0.6.10.jar` | `both` |
 | [ModernFix](https://modrinth.com/mod/nmDcB62a) | `modernfix-forge-5.27.91+mc1.20.1.jar` | `both` |
@@ -98,6 +107,7 @@
 | [Puzzles Lib](https://www.curseforge.com/projects/495476) | `PuzzlesLib-v8.1.36-1.20.1-Forge.jar` | `both` |
 | [Quartz Blocks to Quartz](https://www.curseforge.com/projects/1463211) | `quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar` | `both` |
 | [Quests Additions (Forge)](https://www.curseforge.com/projects/580129) | `questsadditions-1.4.7.jar` | `both` |
+| [Resourceful Lib](https://www.curseforge.com/projects/570073) | `resourcefullib-forge-1.20.1-2.1.29.jar` | `both` |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/B3pb093D) | `ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar` | `both` |
 | [RyoamicLights](https://modrinth.com/mod/reCfnRvJ) | `RyoamicLights-forge-0.2.3+mc1.20.1.jar` | `client` |
 | [Simple Voice Chat](https://modrinth.com/mod/9eGKb6K1) | `voicechat-forge-1.20.1-2.6.27.jar` | `both` |
@@ -108,11 +118,14 @@
 | [spark](https://modrinth.com/mod/l6YH9Als) | `spark-1.10.53-forge.jar` | `both` |
 | [Staaaaaaaaaaaack (Stxck)](https://modrinth.com/mod/myL7fuqp) | `staaaaaaaaaaaack-forge-1.20.1-1.5-71.jar` | `both` |
 | [Storage Drawers](https://modrinth.com/mod/guitPqEi) | `StorageDrawers-forge-1.20.1-12.15.1.jar` | `both` |
+| [SuperMartijn642's Config Lib](https://www.curseforge.com/projects/438332) | `supermartijn642configlib-1.1.8-forge-mc1.20.jar` | `both` |
+| [SuperMartijn642's Core Lib](https://www.curseforge.com/projects/454372) | `supermartijn642corelib-1.1.26b-forge-mc1.20.1.jar` | `both` |
 | [Supplementaries](https://modrinth.com/mod/fFEIiSDQ) | `supplementaries-1.20-3.1.44-forge.jar` | `both` |
 | [Tax' Dragon Legend](https://www.curseforge.com/projects/831897) | `TaxDragonLegend+M.1.20.1+ForM.3.0.3.jar` | `both` |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/XZNI4Cpy) | `toms_storage-1.20-1.7.1.jar` | `both` |
 | [Tom's Trading Network](https://modrinth.com/mod/x5iQ3NM5) | `toms_trading_network-1.20-0.3.1.jar` | `both` |
 | [Tool Stats](https://modrinth.com/mod/vuGFx44e) | `ToolStats-Forge-1.20.1-16.0.10.jar` | `client` |
+| [Trash Cans](https://www.curseforge.com/projects/394535) | `trashcans-1.1.2-forge-mc1.20.4.jar` | `both` |
 <!-- MODS_END -->
 
 ---
