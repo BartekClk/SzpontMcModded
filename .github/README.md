@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 94
+**Łącznie modów:** 96
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -26,6 +26,7 @@
 | [Better End Cities - Vanilla](https://www.curseforge.com/projects/959431) | `betterendcities-1.0.0-1.20.1.jar` | `both` |
 | [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | `bettervillage-forge-1.20.1-3.3.1-all.jar` | `both` |
 | [BetterF3](https://modrinth.com/mod/8shC1gFX) | `BetterF3-7.0.2-Forge-1.20.1.jar` | `client` |
+| [Bookshelf](https://www.curseforge.com/projects/228525) | `Bookshelf-Forge-1.20.1-20.2.15.jar` | `both` |
 | [Chunky](https://modrinth.com/mod/fALzjamp) | `Chunky-1.3.146.jar` | `server` |
 | [Cloth Config API](https://modrinth.com/mod/9s6osm5g) | `cloth-config-11.1.136-forge.jar` | `both` |
 | [Clumps](https://modrinth.com/mod/Wnxd13zP) | `Clumps-forge-1.20.1-12.0.0.4.jar` | `both` |
@@ -109,6 +110,7 @@
 | [Tax' Dragon Legend](https://www.curseforge.com/projects/831897) | `TaxDragonLegend+M.1.20.1+ForM.3.0.3.jar` | `both` |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/XZNI4Cpy) | `toms_storage-1.20-1.7.1.jar` | `both` |
 | [Tom's Trading Network](https://modrinth.com/mod/x5iQ3NM5) | `toms_trading_network-1.20-0.3.1.jar` | `both` |
+| [Tool Stats](https://modrinth.com/mod/vuGFx44e) | `ToolStats-Forge-1.20.1-16.0.10.jar` | `client` |
 <!-- MODS_END -->
 
 ---
