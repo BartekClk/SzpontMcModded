@@ -1,17 +1,20 @@
-// // Dopisanie pni z Deeper and Darker oraz wszystkich okorowanych pni do głównego tagu
-// <tag:items:minecraft:logs>.add(<tag:items:deeperdarker:echo_logs>);
-// <tag:items:minecraft:logs>.add(<tag:items:forge:stripped_logs>);
-// <tag:items:minecraft:logs>.add(<tag:items:create:modded_stripped_logs>);
+import crafttweaker.api.tag.manager.ITagManager;
+# Adding echo_logs from deepr_and_darker to tak logs
+if(<tagmanager:items>.exists("deeperdarker:echo_logs")) {
+    val logsTag = <tag:items:minecraft:logs>;
+    val echoLogsTag = <tag:items:deeperdarker:echo_logs>;
+    logsTag.add(echoLogsTag);
+}
 
-// // 2 dowolne pnie pionowo -> 16 patyków
-// craftingTable.addShaped("logs_to_sticks", <item:minecraft:stick> * 16, [
-//     [<tag:items:minecraft:logs>],
-//     [<tag:items:minecraft:logs>]
-// ]);
+# 8 logs to 4 chests
+craftingTable.addShaped("logs_to_chests", <item:minecraft:chest> * 4, [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+]);
 
-// // 8 dowolnych pni dookoła -> 4 skrzynki
-// craftingTable.addShaped("logs_to_chests", <item:minecraft:chest> * 4, [
-//     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
-//     [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
-//     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
-// ]);
+# 2 logs to 16 sticks
+craftingTable.addShaped("logs_to_sticks", <item:minecraft:stick> * 16, [
+    [<tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>]
+]);
