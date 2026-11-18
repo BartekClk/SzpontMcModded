@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/deeperdarker-common.toml"
+hash = "e491eefcce5091872e4283eca2a7e47a8465031734196f33b6949aea619c43cd"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
 hash = "973b9960857be5400b18a4c240b232c37cdaa06b95b54230df60b6628898107f"
 
@@ -34,7 +38,7 @@ hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 
 [[files]]
 file = "config/just_leveling-common.toml"
-hash = "fdf4b78b6ebb0fe3f5a20464b36a07302e1ce726f5c9e189ecf815567f9fb4c9"
+hash = "4436b1bf07149e5596e7744e5dcbefcfda389da81f03907472b684bdc2197906"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -89,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "6caf438f3347cbe468431b631c426caf0ce5d04a2d06a2cc588576b8c49a1225"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
 metafile = true
 
 [[files]]
@@ -504,6 +513,11 @@ metafile = true
 [[files]]
 file = "mods/toms-trading-network.pw.toml"
 hash = "7a4a4a29d5714bfae86321107dfa7a4e05d7b22a419bc472d1e351a99010aa6c"
+metafile = true
+
+[[files]]
+file = "mods/tool-stats.pw.toml"
+hash = "b64eccbd87fdcc8505d7a1d50e69c5da1eaa71b1fc49b33c19b484f933e6bbe5"
 metafile = true
 
 [[files]]
