@@ -32,7 +32,6 @@
 | [Chunky](https://modrinth.com/mod/fALzjamp) | `Chunky-1.3.146.jar` | `server` |
 | [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/projects/348521) | `cloth-config-11.1.136-forge.jar` | `both` |
 | [Clumps](https://modrinth.com/mod/Wnxd13zP) | `Clumps-forge-1.20.1-12.0.0.4.jar` | `both` |
-| [Configured](https://www.curseforge.com/projects/457570) | `configured-forge-1.20.1-2.2.3.jar` | `client` |
 | [Create: Copycats+](https://modrinth.com/mod/UT2M39wf) | `copycats-3.0.10+mc.1.20.1-forge.jar` | `both` |
 | [Cosmetic Armor Reworked](https://www.curseforge.com/projects/237307) | `cosmeticarmorreworked-1.20.1-v1a.jar` | `both` |
 | [CraftTweaker](https://www.curseforge.com/projects/239197) | `CraftTweaker-forge-1.20.1-14.0.60.jar` | `both` |
@@ -96,7 +95,8 @@
 | [Memory Leak Fix](https://modrinth.com/mod/NRjRiSSD) | `memoryleakfix-forge-1.17+-1.1.5.jar` | `client` |
 | [Merged Artifacts](https://www.curseforge.com/projects/1743284) | `mergedartifacts-0.0.1.jar` | `both` |
 | [MES - Moog's End Structures](https://modrinth.com/mod/r4PuRGfV) | `MoogsEndStructures-universal-1.20-2.1.0.jar` | `both` |
-| [MezzConfig](https://www.curseforge.com/projects/1689768) | `mezz_config-1.20.1-forge-0.6.10.jar` | `both` |
+| [MezzConfig](https://modrinth.com/mod/7tEfOcA7) | `mezz_config-1.20.1-forge-0.7.1.jar` | `both` |
+| [MezzConfigGUI](https://modrinth.com/mod/BOHUKqOz) | `mezz_config_gui-1.20.1-forge-mc1.20.1-0.5.11.jar` | `client` |
 | [ModernFix](https://modrinth.com/mod/nmDcB62a) | `modernfix-forge-5.27.91+mc1.20.1.jar` | `both` |
 | [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/1oUDhxuy) | `MoogsStructureLib-forge-1.20-3.4.2.jar` | `both` |
 | [Moonlight Lib](https://modrinth.com/mod/twkfQtEc) | `moonlight-1.20-2.16.38B-forge.jar` | `both` |

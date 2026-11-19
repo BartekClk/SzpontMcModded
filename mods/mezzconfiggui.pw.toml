@@ -1,0 +1,13 @@
+name = "MezzConfigGUI"
+filename = "mezz_config_gui-1.20.1-forge-mc1.20.1-0.5.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BOHUKqOz/versions/yJRD65ti/mezz_config_gui-1.20.1-forge-mc1.20.1-0.5.11.jar"
+hash-format = "sha512"
+hash = "13675b89cced971cc37317dd11a0a038c20aeb6a2e5b3526d852213e9f40afc2ac12b94ef5bc8af5d8063c6f2f247c22231a0cdfc0cb53a76a0f2cecedf6d437"
+
+[update]
+[update.modrinth]
+mod-id = "BOHUKqOz"
+version = "yJRD65ti"

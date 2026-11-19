@@ -130,11 +130,6 @@ hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
 metafile = true
 
 [[files]]
-file = "mods/configured.pw.toml"
-hash = "8f9bf1a61b909a83a70b75d7a30cc1a1a17d41026aa1b4acb0ca8291ab2a1433"
-metafile = true
-
-[[files]]
 file = "mods/copycats.pw.toml"
 hash = "bc4c7fcbe7ac207a8cf408e754a02ffb61cc106a5445a6987a0924b45ce8b53b"
 metafile = true
@@ -451,7 +446,12 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "b9eea39bcf3797fe6221c607070e0910e7425a555afadd60badde8c83932dcbc"
+hash = "97a0aa0bfbad2bc5ae3e3454033df72c54b0e3ad45b95ecde451804a77a9eb0b"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfiggui.pw.toml"
+hash = "f7bb190361a5c8f8b4e86245cf35be399f400e8274efa9cc7b39de4942ee6a14"
 metafile = true
 
 [[files]]
