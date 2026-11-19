@@ -83,9 +83,9 @@
 | [Just Enough Items (JEI)](https://modrinth.com/mod/u6dRKJwZ) | `jei-1.20.1-forge-15.74.0.234.jar` | `both` |
 | [Just Enough Professions (JEP)](https://modrinth.com/mod/kB56GtWA) | `JustEnoughProfessions-forge-1.20.1-3.0.1.jar` | `both` |
 | [Just Enough Resources (JER)](https://modrinth.com/mod/uEfK2CXF) | `JustEnoughResources-1.20.1-1.4.0.247.jar` | `client` |
-| [just-leveling-fork](https://github.com/BartekClk/Just-Leveling-Fixed) | `jlfix-1.0.1.jar` | `both` |
 | [Just Leveling [Forge]](https://www.curseforge.com/projects/923753) | `justleveling-forge-1.20.x-v1.7.jar` | `both` |
 | [Just Zoom](https://modrinth.com/mod/iAiqcykM) | `justzoom_forge_3.1.0_MC_1.20.1.jar` | `client` |
+| [JustLevelingFixed](https://github.com/BartekClk/Just-Leveling-Fixed) | `jlfix-1.0.1.jar` | `both` |
 | [Konkrete](https://modrinth.com/mod/J81TRJWm) | `konkrete_forge_1.8.0_MC_1.20-1.20.1.jar` | `both` |
 | [Krypton Reno](https://modrinth.com/mod/JkxWVYwU) | `Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar` | `both` |
 | [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | `libraryferret-forge-1.20.1-4.0.0.jar` | `both` |
