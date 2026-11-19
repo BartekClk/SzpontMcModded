@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 111
+**Łącznie modów:** 112
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -48,6 +48,7 @@
 | [Create: The Factory Must Grow](https://www.curseforge.com/projects/693815) | `tfmg-1.0.2f.jar` | `both` |
 | [Create: New Age](https://modrinth.com/mod/FTeXqI9v) | `create-new-age-1.2.0+forge-mc1.20.1.jar` | `both` |
 | [Create: Steam 'n' Rails](https://modrinth.com/mod/ZzjhlDgM) | `Steam_Rails-1.7.3+forge-mc1.20.1.jar` | `both` |
+| [Create: Storage Drawers Compat](https://www.curseforge.com/projects/1626460) | `create-storage-drawers-compat-1.1.0.jar` | `both` |
 | [Create: Structures](https://modrinth.com/mod/IAnP4np7) | `create-structures-0.1.1-1.20.1-FORGE.jar` | `both` |
 | [Create Stuff 'N Additions](https://modrinth.com/mod/aq9qUUQG) | `create-stuff-additions1.20.1_v2.1.2.jar` | `both` |
 | [Create: Ultimate Factory](https://www.curseforge.com/projects/978125) | `create_ultimate_factory-2.2.4-forge-1.20.1.jar` | `both` |
