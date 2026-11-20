@@ -5,6 +5,14 @@ file = "config/deeperdarker-common.toml"
 hash = "e491eefcce5091872e4283eca2a7e47a8465031734196f33b6949aea619c43cd"
 
 [[files]]
+file = "config/defaultoptions/options.txt"
+hash = "d853e2c89d136fb110d5b633b958d53a6522a56f27b98ef8302cb895047b538f"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "dae5c0b39d33e5e10f015ef27e38b347ab054793286f7736b9761d404df0810d"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/00_podrecznik.snbt"
 hash = "973b9960857be5400b18a4c240b232c37cdaa06b95b54230df60b6628898107f"
 
@@ -39,6 +47,11 @@ hash = "e0c3747d256c674ed4dd9be10e15d924a74db70eef3adf2e7d81fd60fa565e6d"
 [[files]]
 file = "config/just_leveling-common.toml"
 hash = "626424a80695f044de1e7d11478b52f73d009fefda069e1bcc792c3ae39a1383"
+
+[[files]]
+file = "config/openloader/resources/szpontmc-panorama.pw.toml"
+hash = "2228d71537202ee2ee2d051d1f902ce5bda65939f4d6544268fe64dcc8686d59"
+metafile = true
 
 [[files]]
 file = "defaultconfigs/ftbchunks-world.snbt"
@@ -82,6 +95,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "3ebe91177ea837ee18bb61d19191fde5748a7984983540f81dca800e6ba3e0f3"
 metafile = true
 
 [[files]]
@@ -242,6 +260,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "eb60f70cc84efa111a51c35311a44ae352b3b9c98ec7ba4e64595ae627e33006"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
 
 [[files]]
@@ -485,8 +508,23 @@ hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
 metafile = true
 
 [[files]]
+file = "mods/oculus.pw.toml"
+hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+metafile = true
+
+[[files]]
+file = "mods/open-loader.pw.toml"
+hash = "208bc866bae3c3eced527deefb736f0246cd81a0d6e0a851ad0e504bfb01f4fc"
+metafile = true
+
+[[files]]
 file = "mods/overflowing-bars.pw.toml"
 hash = "460172a12bf51c500547b3b961785d8e036ce5e6f0318d6d20dad8d69deeae1b"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "ef0c8813eef47e8ffdce023dfee08152a5099817960dce86623b9a21e8b14be2"
 metafile = true
 
 [[files]]
@@ -628,3 +666,17 @@ hash = "ab1368495a4aee03030f1bb3a4d4935c9f6297c1413de058df012ba9befd306d"
 [[files]]
 file = "scripts/wood_shortcuts.zs"
 hash = "b7d6d460739c74e570362a2f65d5f73af922c9c46c1a33a98afcac25e1bd4d8c"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "5c17de8161b06a10dbd8e59645e7d7edfc583054009b5a787086d5f4fb1a77f1"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "9ceebab8640099bd51b9ad88bbf2d3938772ba03a836c6f6e116ba33924541e7"
+metafile = true
+
+[[files]]
+file = "user_jvm_args.txt"
+hash = "c2bc9cc2a1ab9057408c2475e0458da488c9cc8dfd4573869c685a24895d2a5e"

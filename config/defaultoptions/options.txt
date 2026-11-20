@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/FreshAnimations_v1.11.2_1.20+.zip","resources/SzpontMC_Panorama.zip"]

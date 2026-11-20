@@ -1,0 +1,8 @@
+name = "szpontmc-panorama"
+filename = "SzpontMC_Panorama.zip"
+side = "client"
+
+[download]
+url = "https://github.com/BartekClk/SzpontMC_Panorama/releases/download/V1.0.0/SzpontMC_Panorama.zip"
+hash-format = "sha256"
+hash = "3d28dff9ff34da9145cbfe53f7ff6b0a09afb527f80fad5566a09e10f3c79c4e"
