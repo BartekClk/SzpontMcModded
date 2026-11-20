@@ -11,7 +11,7 @@
 
 <!-- MODS_START -->
 
-**Łącznie modów:** 112
+**Łącznie modów:** 117
 
 | Nazwa moda | Wersja pliku | Strona |
 | :--- | :--- | :---: |
@@ -23,6 +23,7 @@
 | [Architectury API](https://www.curseforge.com/projects/419699) | `architectury-9.2.14-forge.jar` | `both` |
 | [Artifacts](https://www.curseforge.com/projects/312353) | `artifacts-forge-9.5.19.jar` | `both` |
 | [Athena](https://www.curseforge.com/projects/841890) | `athena-forge-1.20.1-3.1.2.jar` | `both` |
+| [Balm](https://modrinth.com/mod/MBAkmtvl) | `balm-forge-1.20.1-7.3.44.jar` | `client` |
 | [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv) | `bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar` | `both` |
 | [Better End Cities - Vanilla](https://www.curseforge.com/projects/959431) | `betterendcities-1.0.0-1.20.1.jar` | `both` |
 | [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | `bettervillage-forge-1.20.1-3.3.1-all.jar` | `both` |
@@ -55,6 +56,7 @@
 | [Create Crafts & Additions](https://modrinth.com/mod/kU1G12Nn) | `createaddition-1.20.1-1.3.3.jar` | `both` |
 | [Curios API](https://www.curseforge.com/projects/309927) | `curios-forge-5.14.1+1.20.1.jar` | `both` |
 | [Deeper and Darker](https://modrinth.com/mod/fnAffV0n) | `deeperdarker-forge-1.20.1-1.3.3.jar` | `both` |
+| [Default Options](https://modrinth.com/mod/WEg59z5b) | `defaultoptions-forge-1.20.1-18.0.5.jar` | `client` |
 | [Distant Horizons](https://modrinth.com/mod/uCdwusMi) | `DistantHorizons-3.3.3-1.20.1-fabric-forge.jar` | `client` |
 | [Easy Piglins](https://modrinth.com/mod/l6n94pax) | `easy-piglins-forge-1.20.1-1.1.0.jar` | `both` |
 | [Easy Villagers](https://modrinth.com/mod/Kaov2qgi) | `easy-villagers-forge-1.20.1-1.1.39.jar` | `both` |
@@ -103,7 +105,10 @@
 | [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq) | `MouseTweaks-forge-mc1.20.1-2.25.1.jar` | `client` |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | `notenoughanimations-forge-1.12.7-mc1.20.1.jar` | `client` |
 | [ObsidianUI](https://modrinth.com/mod/E0L8mfJZ) | `ObsidianUI-forge-0.2.3+mc1.20.1.jar` | `client` |
+| [Oculus](https://modrinth.com/mod/GchcoXML) | `oculus-mc1.20.1-1.8.0.jar` | `client` |
+| [Open Loader](https://modrinth.com/mod/KwWsINvD) | `OpenLoader-Forge-1.20.1-19.0.5.jar` | `client` |
 | [Overflowing Bars](https://www.curseforge.com/projects/852662) | `OverflowingBars-v8.0.1-1.20.1-Forge.jar` | `both` |
+| [Packet Fixer](https://modrinth.com/mod/c7m1mi73) | `packetfixer-3.3.2-1.18-1.20.4-merged.jar` | `both` |
 | [Placebo](https://modrinth.com/mod/tCkE8p2N) | `Placebo-1.20.1-8.6.3.jar` | `both` |
 | [Puzzles Lib](https://www.curseforge.com/projects/495476) | `PuzzlesLib-v8.1.36-1.20.1-Forge.jar` | `both` |
 | [Quartz Blocks to Quartz](https://www.curseforge.com/projects/1463211) | `quartz_blocks_to_quartz-1.0.0-forge-1.20.1.jar` | `both` |
