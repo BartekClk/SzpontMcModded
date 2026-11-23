@@ -563,11 +563,6 @@ hash = "eb3e0a0e6ce67ec6164900d16a1ad9a6b72b5a3dcae42ef66a5ba2b75f8ececc"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "05c5ebbf01518b99f390154362f404049e19d9306ebee2a564b202129a3519fe"
-metafile = true
-
-[[files]]
 file = "mods/sky-villages-forge.pw.toml"
 hash = "8a2bb37831521a06e723796797baa606c121a721f9e86f4aae4c7ce4ba8a8ea1"
 metafile = true
