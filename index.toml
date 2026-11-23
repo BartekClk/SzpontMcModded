@@ -408,6 +408,11 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
+file = "mods/just-leveling-fixed.pw.toml"
+hash = "5d3611ffa63a74f822113597783f209bc7ebd829b1c3b6bce4fb7bd97127f49b"
+metafile = true
+
+[[files]]
 file = "mods/just-leveling.pw.toml"
 hash = "1709eb2e8a497e9257c16d3aaacc1725cfc9689881e48431902a139124b04a8b"
 metafile = true
@@ -415,11 +420,6 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "d3936a59df6e06c3a5857a7de51023b3a824ee9b9d37d00fca809e9f18ce57ec"
-metafile = true
-
-[[files]]
-file = "mods/justlevelingfixed.pw.toml"
-hash = "e67ded358d8a0d74b392c55ad9be9af5451681386e36e4b71e5d3190afa1237e"
 metafile = true
 
 [[files]]

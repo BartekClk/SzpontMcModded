@@ -1,8 +1,0 @@
-name = "JustLevelingFixed"
-filename = "jlfix-1.0.1.jar"
-side = "both"
-
-[download]
-url = "https://github.com/BartekClk/Just-Leveling-Fixed/releases/download/jlfix-1.0.1/jlfix-1.0.1.jar"
-hash-format = "sha256"
-hash = "fc621a26f6263ae34f9b500a4fac96262b9a18b4144963f45e044c43208822b3"
