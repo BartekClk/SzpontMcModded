@@ -660,6 +660,10 @@ file = "scripts/dragon_smithing.zs"
 hash = "f28dc576acfdfdd379e44c09ffe8b07f0ff70494ecdd648b0bd3bfef56fc3244"
 
 [[files]]
+file = "scripts/rosequartz_fix.zs"
+hash = "ff648b1bff5e85252ae6304bba1b1f3bc8bc80fa699a31aee9ed42d4e3436def"
+
+[[files]]
 file = "scripts/unify_steel.zs"
 hash = "ab1368495a4aee03030f1bb3a4d4935c9f6297c1413de058df012ba9befd306d"
 
