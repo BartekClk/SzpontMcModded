@@ -85,12 +85,13 @@
 | [Just Enough Items (JEI)](https://modrinth.com/mod/u6dRKJwZ) | `jei-1.20.1-forge-15.74.0.234.jar` | `both` |
 | [Just Enough Professions (JEP)](https://modrinth.com/mod/kB56GtWA) | `JustEnoughProfessions-forge-1.20.1-3.0.1.jar` | `both` |
 | [Just Enough Resources (JER)](https://modrinth.com/mod/uEfK2CXF) | `JustEnoughResources-1.20.1-1.4.0.247.jar` | `client` |
+| [just-leveling-fixed](https://github.com/BartekClk/Just-Leveling-Fixed) | `jlfix-1.0.2.jar` | `both` |
 | [Just Leveling [Forge]](https://www.curseforge.com/projects/923753) | `justleveling-forge-1.20.x-v1.7.jar` | `both` |
 | [Just Zoom](https://modrinth.com/mod/iAiqcykM) | `justzoom_forge_3.1.0_MC_1.20.1.jar` | `client` |
-| [JustLevelingFixed](https://github.com/BartekClk/Just-Leveling-Fixed) | `jlfix-1.0.1.jar` | `both` |
 | [Konkrete](https://modrinth.com/mod/J81TRJWm) | `konkrete_forge_1.8.0_MC_1.20-1.20.1.jar` | `both` |
 | [Krypton Reno](https://modrinth.com/mod/JkxWVYwU) | `Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar` | `both` |
 | [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | `libraryferret-forge-1.20.1-4.0.0.jar` | `both` |
+| [Lighty](https://modrinth.com/mod/yjvKidNM) | `lighty-forge-2.1.3+1.20.1.jar` | `client` |
 | [Lootr](https://modrinth.com/mod/EltpO5cN) | `lootr-forge-1.20-0.7.35.94.jar` | `both` |
 | [Macaw's Bridges](https://modrinth.com/mod/GURcjz8O) | `mcw-bridges-3.1.2-mc1.20.1forge.jar` | `both` |
 | [Magnum Torch](https://www.curseforge.com/projects/593981) | `MagnumTorch-v8.0.2-1.20.1-Forge.jar` | `both` |
@@ -116,7 +117,6 @@
 | [Resourceful Lib](https://www.curseforge.com/projects/570073) | `resourcefullib-forge-1.20.1-2.1.29.jar` | `both` |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/B3pb093D) | `ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar` | `both` |
 | [RyoamicLights](https://modrinth.com/mod/reCfnRvJ) | `RyoamicLights-forge-0.2.3+mc1.20.1.jar` | `client` |
-| [Simple Voice Chat](https://modrinth.com/mod/9eGKb6K1) | `voicechat-forge-1.20.1-2.6.27.jar` | `both` |
 | [Sky Villages [Forge]](https://www.curseforge.com/projects/545467) | `SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar` | `both` |
 | [Sophisticated Backpacks](https://modrinth.com/mod/TyCTlI4b) | `sophisticatedbackpacks-1.20.1-3.26.19.2239.jar` | `both` |
 | [Sophisticated Core](https://modrinth.com/mod/nmoqTijg) | `sophisticatedcore-1.20.1-1.5.26.2457.jar` | `both` |
