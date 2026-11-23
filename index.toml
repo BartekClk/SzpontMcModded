@@ -408,6 +408,11 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
+file = "mods/just-leveling-fixed.pw.toml"
+hash = "5d3611ffa63a74f822113597783f209bc7ebd829b1c3b6bce4fb7bd97127f49b"
+metafile = true
+
+[[files]]
 file = "mods/just-leveling.pw.toml"
 hash = "1709eb2e8a497e9257c16d3aaacc1725cfc9689881e48431902a139124b04a8b"
 metafile = true
@@ -415,11 +420,6 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "d3936a59df6e06c3a5857a7de51023b3a824ee9b9d37d00fca809e9f18ce57ec"
-metafile = true
-
-[[files]]
-file = "mods/justlevelingfixed.pw.toml"
-hash = "e67ded358d8a0d74b392c55ad9be9af5451681386e36e4b71e5d3190afa1237e"
 metafile = true
 
 [[files]]
@@ -435,6 +435,11 @@ metafile = true
 [[files]]
 file = "mods/library-ferret.pw.toml"
 hash = "9e8dd3e6c43542e5edc72259a9be1d3815b87cc3baca9ea071b39c3f06dbb1fc"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "94aa69e3f800f454553aa7f80b8e28a4751d58487775100fb60ae16bbd799259"
 metafile = true
 
 [[files]]
@@ -563,11 +568,6 @@ hash = "eb3e0a0e6ce67ec6164900d16a1ad9a6b72b5a3dcae42ef66a5ba2b75f8ececc"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "05c5ebbf01518b99f390154362f404049e19d9306ebee2a564b202129a3519fe"
-metafile = true
-
-[[files]]
 file = "mods/sky-villages-forge.pw.toml"
 hash = "8a2bb37831521a06e723796797baa606c121a721f9e86f4aae4c7ce4ba8a8ea1"
 metafile = true
@@ -658,6 +658,10 @@ hash = "86c57c3eb26af3b4c11e2fe49b21b35590521ed7e5eb1306f40823bc4929008f"
 [[files]]
 file = "scripts/dragon_smithing.zs"
 hash = "f28dc576acfdfdd379e44c09ffe8b07f0ff70494ecdd648b0bd3bfef56fc3244"
+
+[[files]]
+file = "scripts/rosequartz_fix.zs"
+hash = "ff648b1bff5e85252ae6304bba1b1f3bc8bc80fa699a31aee9ed42d4e3436def"
 
 [[files]]
 file = "scripts/unify_steel.zs"
